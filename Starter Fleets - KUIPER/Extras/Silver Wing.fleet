@@ -559,6 +559,14 @@ Silver Wing "Blindside" is a medium range skirmish wing centered on a pair of Ve
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>0d4881f4-9d52-492a-be5f-041d7fe031e1</GuideKey>
+        <RelativePosition>
+          <x>0.164354324</x>
+          <y>-30.4465332</y>
+          <z>0.15612793</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
