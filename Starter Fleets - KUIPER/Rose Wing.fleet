@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Rose Wing</Name>
   <Version>3</Version>
@@ -6,18 +6,17 @@
   <FactionKey>KUIPER/kuiper</FactionKey>
   <Description>Difficulty: &lt;color=green&gt;EASY&lt;/color&gt;
 
-Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The Blue Rose', an Altea class battleship fitted with 100mm main guns, a substantial hardkill network, and a radar capable of acquiring fire control locks at the same range an Alliance Spyglass can acquire tracks. As well as 'A Thorn By Any Name', a Kyve corvette fitted with 4 dual purpose Castle turrets. Rose Wing is at its best when laying down long range fire in support of its allies, and prefers to sit at ranges of 11km-13km when possible. 'A Thorn by Any Name' can be used either in support of the Altea's pd network or as a standalone light asset for scouting and contesting objectives. Do mind that the PD net of 'The Blue Rose' is asymmetrical, with most of its softkill on the right, while its left has a stronger hardkill network.
+Rose Wing "With Prejudice" is a long range fire support wing consisting of 'Order in Turbulence', an Altea class battleship fitted with 100mm main guns, a substantial hardkill network, and a radar capable of acquiring fire control locks at the same range an Alliance Spyglass can acquire tracks. As well as 'A Thorn By Any Name', a Kyve corvette fitted with 4 dual purpose Castle turrets. Rose Wing is at its best when laying down long range fire in support of its allies, and prefers to sit at ranges of 11km-13km when possible. 'A Thorn by Any Name' can be used either in support of the Altea's pd network or as a standalone light asset for scouting and contesting objectives. Do mind that the PD net of 'Order in Turbulence' is asymmetrical, with most of it's hardkill network on it's left, and only backup point defenses on it's right.
   </Description>
-  <SortOverrideOrder>2</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
+  <SortOverrideOrder>2</SortOverrideOrder>
   <Ships>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>0ae07a16-88db-4d63-a707-d9bbbdff4e04</Key>
-      <Name>The Blue Rose</Name>
-      <Cost>2780</Cost>
+      <Name>Order in Turbulence</Name>
+      <Cost>2784</Cost>
       <Callsign />
       <Number>1431</Number>
       <SymbolOption>0</SymbolOption>
@@ -41,28 +40,11 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>Stock/Mk90 'Aurora' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c2_2</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>gGORwy3q3UicPh75tMwldw</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>14</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>Stock/Mk90 'Aurora' PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c2_4</Key>
-          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_1</Key>
@@ -77,19 +59,6 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
           <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>c1_4</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>gGORwy3q3UicPh75tMwldw</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>14</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
           <Key>c1_5</Key>
           <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
@@ -99,7 +68,7 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         </HullSocket>
         <HullSocket>
           <Key>c1_top</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>Stock/Mk90 'Aurora' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bottom</Key>
@@ -135,11 +104,7 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         </HullSocket>
         <HullSocket>
           <Key>sm_2</Key>
-          <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>sm_3</Key>
-          <ComponentName>Stock/Mount Gyros</ComponentName>
+          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_4</Key>
@@ -155,7 +120,7 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         </HullSocket>
         <HullSocket>
           <Key>sm_7</Key>
-          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
+          <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_8</Key>
@@ -176,7 +141,7 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>4xvX1pG0gE2hx35gjSWrPA</MagazineKey>
@@ -191,12 +156,12 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
               <MagSaveData>
                 <MagazineKey>QMrpDMDk-0u1rcFjhqICzw</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>6000</Quantity>
+                <Quantity>10000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6ixffk58r06w60UOczhu7A</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>525</Quantity>
+                <Quantity>675</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>nqzTN5D8CkysWV6q-gl1QQ</MagazineKey>
@@ -206,32 +171,28 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
               <MagSaveData>
                 <MagazineKey>HLtoCI5f1ECpnSw6LqtVDg</MagazineKey>
                 <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>300</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ZnXExAHW5k2QknLwDxpfPQ</MagazineKey>
                 <MunitionKey>KUIPER/50mm Fragmentation Slug</MunitionKey>
-                <Quantity>200</Quantity>
+                <Quantity>300</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>lc_3</Key>
-          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_4</Key>
-          <ComponentName>KUIPER/Model C78B CNC Shop</ComponentName>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_5</Key>
-          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_6</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>4xvX1pG0gE2hx35gjSWrPA</MagazineKey>
@@ -246,12 +207,12 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
               <MagSaveData>
                 <MagazineKey>QMrpDMDk-0u1rcFjhqICzw</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>6000</Quantity>
+                <Quantity>8000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6ixffk58r06w60UOczhu7A</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>525</Quantity>
+                <Quantity>675</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>nqzTN5D8CkysWV6q-gl1QQ</MagazineKey>
@@ -261,15 +222,23 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
               <MagSaveData>
                 <MagazineKey>HLtoCI5f1ECpnSw6LqtVDg</MagazineKey>
                 <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>300</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>ZnXExAHW5k2QknLwDxpfPQ</MagazineKey>
                 <MunitionKey>KUIPER/50mm Fragmentation Slug</MunitionKey>
-                <Quantity>200</Quantity>
+                <Quantity>300</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_6</Key>
+          <ComponentName>Stock/Intelligence Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_7</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_8</Key>
@@ -277,15 +246,15 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         </HullSocket>
         <HullSocket>
           <Key>lc_9</Key>
-          <ComponentName>Stock/Citadel CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>mc_1</Key>
           <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>mc_1</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>mc_2</Key>
-          <ComponentName>KUIPER/Model C70B HDC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C78B CNC Shop</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_3</Key>
@@ -321,11 +290,6 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Self Illume">
-          <MemberKeys>
-            <string>c2_4</string>
-          </MemberKeys>
-        </WepGroup>
         <WepGroup Name="100mm-Foreward">
           <MemberKeys>
             <string>c5_1</string>
@@ -351,10 +315,9 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>571cf03d-ec83-44cc-9944-fcc8af30b56b</Key>
       <Name>A Thorn By Any Name</Name>
-      <Cost>220</Cost>
+      <Cost>216</Cost>
       <Callsign />
       <Number>458</Number>
       <SymbolOption>0</SymbolOption>
@@ -391,7 +354,7 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>aGzXHWSkhk-QrTwaNsz7Rw</MagazineKey>
@@ -402,11 +365,6 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
                 <MagazineKey>CuM3oVhwwU2a7q4J8hxUKA</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
                 <Quantity>4000</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>141PORx39U-V_jhI3CQDZg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>2000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -423,8 +381,8 @@ Rose Wing "With Prejudice" is a long range fire support wing consisting of 'The 
       <WeaponGroups>
         <WepGroup Name="Upper Castles">
           <MemberKeys>
-            <string>c2_1</string>
             <string>c2_2</string>
+            <string>c2_1</string>
           </MemberKeys>
         </WepGroup>
         <WepGroup Name="Lower Castles">

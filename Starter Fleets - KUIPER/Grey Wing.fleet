@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Grey Wing</Name>
   <Version>3</Version>
@@ -6,18 +6,17 @@
   <FactionKey>KUIPER/kuiper</FactionKey>
   <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
-Grey Wing "Warden" is an objective focused wing. The center piece of the wing is the 'Move With Purpose', a Helendir Class Line Carrier. Its role is to engage enemy cap dominance assets with its 50mm coil guns, and provide long range support to its cappers by way of its complement of 12 Zephyr multirole fighters. Said fighters are able to engage enemy light assets with their SGM-239 Derivative missiles. Or enemy craft by way of the SDM-227 Axiom and SGM-152 Consequence. Helping to manage the sensor picture is the 'Aware' a Spotting corvette. While the other five Kyves are intended to be used flexibly, either defending friendly objectives, or contesting hostile ones.
+Grey Wing "Warden" is an objective focused wing. The center piece of the wing is the 'Move With Purpose', a Helendir Class Line Carrier. Its role is to engage enemy cap dominance assets with its 50mm coil guns, and provide long range support to its cappers by way of its complement of 12 Zephyr multirole fighters. Said fighters are able to engage enemy light assets with their SGM-239 Derivative missiles. Or enemy craft by way of the SDM-227 Axiom and SSM-152 Consequence. Helping to manage the sensor picture is the 'Aware' a Spotting corvette. While the other five Kyves are intended to be used flexibly, either defending friendly objectives, or contesting hostile ones.
   </Description>
-  <SortOverrideOrder>8</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
+  <SortOverrideOrder>8</SortOverrideOrder>
   <Ships>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>3d20c75a-8492-4588-a4d1-82878fd99658</Key>
       <Name>Move With Purpose</Name>
-      <Cost>1615</Cost>
+      <Cost>1555</Cost>
       <Callsign />
       <Number>716</Number>
       <SymbolOption>0</SymbolOption>
@@ -37,7 +36,7 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
         <HullSocket>
           <Key>c1_bridge</Key>
-          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
+          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_1</Key>
@@ -46,14 +45,6 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>c1_2</Key>
           <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_3</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_4</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_5</Key>
@@ -70,7 +61,7 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lm_2_h</Key>
           <ComponentName>KUIPER/Helendir Craft Hangar</ComponentName>
-          <ComponentData xsi:type="CraftHangarData">
+          <ComponentData p2:type="CraftHangarData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <StoredCraft>
               <SavedStoredCraft>
                 <CraftTemplateKey>$CRAFT$/ZPH-28 Zephyr</CraftTemplateKey>
@@ -142,7 +133,7 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>dEDT0qxy3kixOhLCn6oCWg</MagazineKey>
@@ -160,33 +151,13 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>Hj3kkkPyPUuHs9UG2ZuOmw</MagazineKey>
-                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>525</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>srHloKAE0Uq5GKU2N_HV9A</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
                 <Quantity>8000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>EJaSugJy-0WvTKb-aAAo1A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-200 Derivative</MunitionKey>
-                <Quantity>24</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>3wVKZhZ_ZE-vBhUVNfPziw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-152 Consequence</MunitionKey>
-                <Quantity>24</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>LCkVQfv4ck2-OO-wn7TPtw</MagazineKey>
                 <MunitionKey>Stock/S1 Glide Bomb</MunitionKey>
-                <Quantity>24</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>I0VqQoTzpkmLaCwpzg0ANw</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-227 Axion</MunitionKey>
                 <Quantity>24</Quantity>
               </MagSaveData>
               <MagSaveData>
@@ -202,12 +173,27 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
               <MagSaveData>
                 <MagazineKey>DfWux9lUaEevGfN5Zc9jiw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>juP0g8x7QE2PW0OMBi0cIA</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>1500</Quantity>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>5PRMcYBrj0u1gtUIYokD8Q</MagazineKey>
+                <MunitionKey>$MODMIS$/SDM-227 Axion</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>19-zUp06PU6jC_BBo__vJg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-200 Derivative</MunitionKey>
+                <Quantity>24</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Wh3GdkqnS0ugUX9mYNx90A</MagazineKey>
+                <MunitionKey>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</MunitionKey>
+                <Quantity>48</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -255,17 +241,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>c0_1_LC</Key>
           <ComponentName>KUIPER/TLS-1</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>t9WcR9ixSEq-qR-XsM_evw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>9</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>TRhv_q5Yqkeul8KC-pjA_A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
-                <Quantity>1</Quantity>
+                <Quantity>10</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -276,16 +257,6 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Castle-L">
-          <MemberKeys>
-            <string>c1_3</string>
-          </MemberKeys>
-        </WepGroup>
-        <WepGroup Name="Castle-R">
-          <MemberKeys>
-            <string>c1_4</string>
-          </MemberKeys>
-        </WepGroup>
         <WepGroup Name="Dorsal">
           <MemberKeys>
             <string>c3_1</string>
@@ -304,10 +275,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>d6ccb3f5-ca0f-48d5-80c4-312d0830de32</Key>
       <Name>Aware</Name>
-      <Cost>200</Cost>
+      <Cost>190</Cost>
       <Callsign>Spotter</Callsign>
       <Number>836</Number>
       <SymbolOption>0</SymbolOption>
@@ -316,12 +286,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>c2_4</Key>
           <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>scaNMZvmgEO8Mcv_pU98nQ</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>8</Quantity>
+                <Quantity>6</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>26P3IvEyEEO7kmQhge8-Lw</MagazineKey>
@@ -329,9 +299,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <Quantity>1</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>3hjMfrzCmUGHlA3y4gGTHg</MagazineKey>
+                <MagazineKey>n3iHEULaq0e9uP1UQ1ETmQ</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-127 Defender</MunitionKey>
-                <Quantity>8</Quantity>
+                <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -355,7 +325,7 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load />
           </ComponentData>
         </HullSocket>
@@ -381,10 +351,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>7d535d2b-5bc2-4fbe-8abc-ca3fbdac2786</Key>
       <Name>The Space Between</Name>
-      <Cost>237</Cost>
+      <Cost>251</Cost>
       <Callsign />
       <Number>1382</Number>
       <SymbolOption>0</SymbolOption>
@@ -404,25 +373,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>scaNMZvmgEO8Mcv_pU98nQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>e1kdlhU0jkKrGg1jSA7e4A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 55 Reinforced Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_1</Key>
@@ -435,17 +390,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>7nNQ7coWF0yXXZaJwrQFMw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z86sNf-keE-zqIrTopgktg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>TGZ8bg_y30qTlnK7cKzO5A</MagazineKey>
@@ -466,6 +416,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <MagazineKey>-d5YZRc6OUGe7f9rSpIddA</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
                 <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8-9yITihFkKtGWPRsUhg2g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -496,10 +451,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>1d8af055-0941-47f6-8c00-28c13ed116f5</Key>
       <Name>Sliding Through Stars</Name>
-      <Cost>237</Cost>
+      <Cost>251</Cost>
       <Callsign />
       <Number>629</Number>
       <SymbolOption>0</SymbolOption>
@@ -519,25 +473,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>scaNMZvmgEO8Mcv_pU98nQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>e1kdlhU0jkKrGg1jSA7e4A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 55 Reinforced Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_1</Key>
@@ -550,17 +490,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>7nNQ7coWF0yXXZaJwrQFMw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z86sNf-keE-zqIrTopgktg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>TGZ8bg_y30qTlnK7cKzO5A</MagazineKey>
@@ -581,6 +516,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <MagazineKey>-d5YZRc6OUGe7f9rSpIddA</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
                 <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8-9yITihFkKtGWPRsUhg2g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -611,10 +551,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>819074b4-64f0-4198-9d71-3b33e25d2494</Key>
       <Name>With A Gentle Push</Name>
-      <Cost>237</Cost>
+      <Cost>251</Cost>
       <Callsign />
       <Number>21</Number>
       <SymbolOption>0</SymbolOption>
@@ -634,25 +573,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>scaNMZvmgEO8Mcv_pU98nQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>e1kdlhU0jkKrGg1jSA7e4A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 55 Reinforced Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_1</Key>
@@ -665,17 +590,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>7nNQ7coWF0yXXZaJwrQFMw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z86sNf-keE-zqIrTopgktg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>TGZ8bg_y30qTlnK7cKzO5A</MagazineKey>
@@ -696,6 +616,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <MagazineKey>-d5YZRc6OUGe7f9rSpIddA</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
                 <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8-9yITihFkKtGWPRsUhg2g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -726,10 +651,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>0b0a7e5c-4c77-402b-b6e0-da9be94772a9</Key>
       <Name>On Liquid Sand</Name>
-      <Cost>237</Cost>
+      <Cost>251</Cost>
       <Callsign />
       <Number>943</Number>
       <SymbolOption>0</SymbolOption>
@@ -749,25 +673,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>scaNMZvmgEO8Mcv_pU98nQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>e1kdlhU0jkKrGg1jSA7e4A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 55 Reinforced Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_1</Key>
@@ -780,17 +690,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>7nNQ7coWF0yXXZaJwrQFMw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z86sNf-keE-zqIrTopgktg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>TGZ8bg_y30qTlnK7cKzO5A</MagazineKey>
@@ -811,6 +716,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <MagazineKey>-d5YZRc6OUGe7f9rSpIddA</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
                 <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8-9yITihFkKtGWPRsUhg2g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -841,10 +751,9 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>096404bf-2008-4b4c-baf2-670ffbcc88a3</Key>
       <Name>A Short Trek</Name>
-      <Cost>237</Cost>
+      <Cost>251</Cost>
       <Callsign />
       <Number>940</Number>
       <SymbolOption>0</SymbolOption>
@@ -864,25 +773,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>scaNMZvmgEO8Mcv_pU98nQ</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>e1kdlhU0jkKrGg1jSA7e4A</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 55 Reinforced Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_1</Key>
@@ -895,17 +790,12 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>7nNQ7coWF0yXXZaJwrQFMw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z86sNf-keE-zqIrTopgktg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>TGZ8bg_y30qTlnK7cKzO5A</MagazineKey>
@@ -926,6 +816,11 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <MagazineKey>-d5YZRc6OUGe7f9rSpIddA</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
                 <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>8-9yITihFkKtGWPRsUhg2g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -958,24 +853,25 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
   </Ships>
   <MissileTypes>
     <MissileTemplate>
+      <SaveKey>$MODMIS$/SDM-227 Axion</SaveKey>
       <Designation>SDM-227</Designation>
       <Nickname>Axion</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.  MISSILEDETAIL_FALLBACK
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
 
-&lt;b&gt;Boost&lt;/b&gt;
+&lt;b&gt;$MISSILEENGINE_STAGE_BOOST|Boost|&lt;/b&gt;
 $MISSILESTAT_SPEED: 850 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 6,198 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.4 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 5.0 $UNIT_GS
 
-&lt;b&gt;Main&lt;/b&gt;
+&lt;b&gt;$MISSILEENGINE_STAGE_MAIN|Main|&lt;/b&gt;
 $MISSILESTAT_SPEED: 174 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 1,334 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
@@ -983,7 +879,7 @@ $MISSILESTAT_TURNRATE: 7.0 $UNIT_GS
 
 : Stage Trigger at 430m from Target or On Burnout
 
-$MISSILESTAT_TERMINALS: None
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
 $MISSILESTAT_ARMORDAMAGE: 0.45$UNIT_CENTIMETERS
@@ -1016,7 +912,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -1025,7 +921,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="PassiveSeekerSettings">
+          <InstalledComponent p2:type="PassiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -1034,7 +930,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Defensive</Role>
             <HotLaunch>false</HotLaunch>
@@ -1062,7 +958,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>2</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
               <A>0.316500485</A>
@@ -1073,7 +969,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
               <A>1</A>
@@ -1083,25 +979,27 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
+      <ModDependencies />
     </MissileTemplate>
     <MissileTemplate>
+      <SaveKey>$MODMIS$/SGM-200 Derivative</SaveKey>
       <Designation>SGM-200</Designation>
       <Nickname>Derivative</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/[&lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;] - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using command guidance from its launching ship.
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[&lt;color=#FBFF4C&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;] - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using command guidance from its launching ship.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#D3D11F&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#FBFF4C&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
-$MISSILESTAT_VALIDATOR: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_VALIDATOR: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#FBFF4C&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
 
 $MISSILESTAT_SPEED: 216 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 6,879 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.9 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 4.8 $UNIT_GS
-$MISSILESTAT_TERMINALS: Weave
-(&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_WEAVE|Weave|
+(&lt;color=#FBFF4C&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
 $MISSILESTAT_ARMORDAMAGE: 60$UNIT_CENTIMETERS
@@ -1135,7 +1033,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -1144,7 +1042,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="CommandSeekerSettings">
+          <InstalledComponent p2:type="CommandSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Command Receiver</ComponentKey>
             <Mode>Validation</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -1152,7 +1050,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
@@ -1180,7 +1078,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>5</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
               <A>0.2120834</A>
@@ -1190,119 +1088,25 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
+      <ModDependencies />
     </MissileTemplate>
     <MissileTemplate>
-      <Designation>SGM-152</Designation>
-      <Nickname>Consequence</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-152 Consequence&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker.
-
-$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
-
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
-
-$MISSILESTAT_SPEED: 250 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 4,845 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 6.0 $UNIT_GS
-$MISSILESTAT_TERMINALS: None
-
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 65.34$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 47 $UNIT_METERS
-
-$MISSILESTAT_HEALTH: 10 
-$MISSILESTAT_WALLTHICKNESS: 0.05
-$MISSILESTAT_PROGTIME: 6 $UNIT_SECONDS
-$MISSILESTAT_RADARSIG: 100 %
-$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
-$MISSILESTAT_BOOSTSTRAFE: 100 %
-$MISSILESTAT_BOOSTTURN: 100 %
-$MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>2</Cost>
-      <BodyKey>Stock/SGM-1 Body</BodyKey>
-      <TemplateKey>4c09e8f1-d2aa-4097-b530-d7aa36434b04</TemplateKey>
-      <BaseColor>
-        <r>0.7259579</r>
-        <g>0.891150236</g>
-        <b>0.678976536</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>0.4539513</r>
-        <g>0.8945516</g>
-        <b>0.2586338</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>true</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Defensive</Role>
-            <HotLaunch>true</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <Mode>Uniform</Mode>
-              <TargetSizeMask>6</TargetSizeMask>
-              <TargetType>All</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>1</SalvoSize>
-              <ConvSalvo>0</ConvSalvo>
-              <HybridSalvo>0</HybridSalvo>
-              <CraftSalvo>0</CraftSalvo>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>false</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>4</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>3</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0</A>
-              <B>0.7589414</B>
-              <C>0.241058588</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-    </MissileTemplate>
-    <MissileTemplate>
+      <SaveKey>$MODMIS$/SGM-122 Dont Fire Me!</SaveKey>
       <Designation>SGM-122</Designation>
       <Nickname>Dont Fire Me!</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-122 Dont Fire Me!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using a Semi-Active Radar seeker.
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-122 Dont Fire Me!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 $MISSILESTAT_SPEED: 300 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 3,507 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 7.7 $UNIT_GS
-$MISSILESTAT_TERMINALS: None
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
 $MISSILESTAT_ARMORDAMAGE: 31$UNIT_CENTIMETERS
@@ -1336,7 +1140,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -1345,7 +1149,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
@@ -1373,34 +1177,35 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>3</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
-              <A>0.33333</A>
-              <B>0.33333</B>
-              <C>0.33333</C>
+              <A>0.333333343</A>
+              <B>0.333333343</B>
+              <C>0.333333343</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
+      <ModDependencies />
     </MissileTemplate>
     <MissileTemplate>
-      <AssociatedTemplateName>SGM-127 Riposte V2</AssociatedTemplateName>
+      <SaveKey>$MODMIS$/SGM-127 Defender</SaveKey>
       <Designation>SGM-127</Designation>
       <Nickname>Defender</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-127 Defender&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker.
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-127 Defender&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 $MISSILESTAT_SPEED: 250 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 2,000 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.4 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 12.1 $UNIT_GS
-$MISSILESTAT_TERMINALS: None
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
 $MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
@@ -1433,7 +1238,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Steerable Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -1442,7 +1247,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Defensive</Role>
             <HotLaunch>true</HotLaunch>
@@ -1470,7 +1275,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>3</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
               <A>0</A>
@@ -1480,13 +1285,123 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
+      <ModDependencies />
+    </MissileTemplate>
+    <MissileTemplate>
+      <SaveKey>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</SaveKey>
+      <Designation>SSM-152</Designation>
+      <Nickname>Consequence</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SSM-1 body, which is a nimble space-superiority missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.  MISSILEDETAIL_FALLBACK
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+
+$MISSILESTAT_SPEED: 350 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 3,200 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.9 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 6.2 $UNIT_GS
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
+$MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 65.34$UNIT_HP
+$MISSILESTAT_BLASTRADIUS: 47 $UNIT_METERS
+
+$MISSILESTAT_HEALTH: 10 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 6 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>1</Cost>
+      <BodyKey>Stock/SSM-1 Body</BodyKey>
+      <TemplateKey>e12d15b1-37ed-4c0d-a005-4ba1a5304146</TemplateKey>
+      <BaseColor>
+        <r>0.211764708</r>
+        <g>0.498039216</g>
+        <b>0.784313738</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.254901975</r>
+        <g>0.254901975</g>
+        <b>0.254901975</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="PassiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>true</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Matrix</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16908288</ConvSalvo>
+              <HybridSalvo>16777216</HybridSalvo>
+              <CraftSalvo>16843009</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.663417459</A>
+              <B>0.19924815</B>
+              <C>0.137334391</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+      <ModDependencies />
     </MissileTemplate>
   </MissileTypes>
   <CraftTypes>
     <CraftTemplate>
+      <SaveKey>$CRAFT$/ZPH-28 Zephyr</SaveKey>
       <Nickname>Zephyr</Nickname>
       <LongDescription>$CRAFTSTAT_FRAMEMODEL: Zephyr
-$CRAFTSTAT_FRAMECLASS: Fighter
+$CRAFTSTAT_FRAMECLASS: $CRAFTFRAMECLASS_FIGHTER|Fighter|
 $CRAFTSTAT_BASECOST: 8
 $CRAFTSTAT_STORAGESIZE: 1
 $CRAFTSTAT_PADSIZE: 6 x 6
@@ -1495,47 +1410,56 @@ $CRAFTSTAT_PDTHREATSIZE: 2
 $CRAFTSTAT_HEALTH: 50 
 $CRAFTSTAT_SKIN: 1.75 $UNIT_MILLIMETERS
 $CRAFTSTAT_TARGETSIZE: 0.75 
-$CRAFTSTAT_DR: 0.5 %
+$CRAFTSTAT_DR: 50 %
 
 $CRAFTSTAT_RADARSIG: 100 %
 $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
-$CRAFTSTAT_CMDCAPACITY: 2  (&lt;link="craft-missile-cmdcapacity"&gt;&lt;color=#3BC81E&gt;+1 &lt;/color&gt;&lt;/link&gt;)
-$CRAFTSTAT_MISSILEANGLE: 120 $UNIT_DEGREES (&lt;link="craft-missile-ontargetangle"&gt;&lt;color=#3BC81E&gt;+400%&lt;/color&gt;&lt;/link&gt;)
+$CRAFTSTAT_CMDCAPACITY: 2  (&lt;link="craft-missile-cmdcapacity"&gt;&lt;color=#4CFF72&gt;+1 &lt;/color&gt;&lt;/link&gt;)
+$CRAFTSTAT_MISSILEANGLE: 120 $UNIT_DEGREES (&lt;link="craft-missile-ontargetangle"&gt;&lt;color=#4CFF72&gt;+400%&lt;/color&gt;&lt;/link&gt;)
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
+Pre-Flight Work: 64.9
 $CRAFTSTAT_PREFLIGHTTIME
 $CRAFTSTAT_PREFLIGHT_NOSHIPS
 
-$CRAFTSTAT_IDLESPEED: 35 $UNIT_METERSPERSEC
-$CRAFTSTAT_CRUISESPEED: 75 $UNIT_METERSPERSEC
-$CRAFTSTAT_HBRNSPEED: 113 $UNIT_METERSPERSEC
-$CRAFTSTAT_COMBATSPEED: 113 $UNIT_METERSPERSEC
+Inventory
+ - 19mm AP Hybrid Coilgun Shell: 40
+ - KBU-15 Bomb: 4
+ - SSM-152 Consequence: 2
+Cost To Arm: 6.08
+
+$CRAFTSTAT_IDLESPEED: 40 $UNIT_METERSPERSEC
+$CRAFTSTAT_CRUISESPEED: 80 $UNIT_METERSPERSEC
+$CRAFTSTAT_HBRNSPEED: 120 $UNIT_METERSPERSEC
+$CRAFTSTAT_COMBATSPEED: 120 $UNIT_METERSPERSEC
 
 $CRAFTSTAT_FUELCAPACITY: 1,250
 $CRAFTSTAT_LOITERTIME: 21:50
-$CRAFTSTAT_CRUISERANGE: 89 $UNIT_KILOMETERS
+$CRAFTSTAT_CRUISERANGE: 95 $UNIT_KILOMETERS
 
-$CRAFTSTAT_THRUSTERPOWER: 150 
-$CRAFTSTAT_TURNRATE: 60 
+$CRAFTSTAT_THRUSTERPOWER: 55 
+$CRAFTSTAT_TURNRATE: 30 
 $CRAFTSTAT_OFFANGLETHRUST: 90 $UNIT_DEGREES
 $CRAFTSTAT_OFFANGLETURN: 75 $UNIT_DEGREES
 $CRAFTSTAT_FRAMEMASS: 10.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 10.00
+Thrust-to-Weight: 4.13
 
-&lt;b&gt;Components:&lt;/b&gt;
-Avionics: Missile Control Guidance Suite
-Reinforcement: None
-Countermeasures: Standard CM Launcher
-Engines: None
+&lt;b&gt;$CRAFTSTAT_COMPONENTS:&lt;/b&gt;
+$CRAFTSOCKETNAME_AVIONICS|Avionics|: $CRAFTCOMPNAME_MISSILE_CONTROL_GUIDANCE_SUITE|Missile Control Guidance Suite|
+$CRAFTSOCKETNAME_REINFORCEMENT|Reinforcement|: $GEN_NONE
+$CRAFTSOCKETNAME_COUNTERMEASURES|Countermeasures|: $CRAFTCOMPNAME_STANDARD_CM_LAUNCHER|Standard CM Launcher|
+$CRAFTSOCKETNAME_ENGINES|Engines|: $GEN_NONE
 
-&lt;b&gt;Loadouts:&lt;/b&gt;
-Multi: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;
-A2A: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;
-Strike: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;
-Scramble: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
-Finisher: 2x KBU-15 Bomb, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/noparse&gt;, 2x KBU-15 Bomb</LongDescription>
+&lt;b&gt;$CRAFTSTAT_LOADOUTS:&lt;/b&gt;
+Multi: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
+A2A: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
+Strike: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
+Oops all S1s: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
+Scramble: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|
+Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KBU_15_BOMB|KBU-15 Bomb|, 40x $AMMONAME_19MM_AP_HYBRID_COILGUN_SHELL|19mm AP Hybrid Coilgun Shell|, 2x $AMMONAME_KBU_15_BOMB|KBU-15 Bomb|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;</LongDescription>
       <Cost>11</Cost>
       <FrameKey>KUIPER/ZPH-28 Zephyr Fighter</FrameKey>
       <TemplateKey>e69ca0e7-0d11-47e6-b371-26d907e7fd41</TemplateKey>
@@ -1553,61 +1477,71 @@ Finisher: 2x KBU-15 Bomb, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/no
         <CraftLoadout>
           <LoadoutName>Multi</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>nose</SocketKey>
               <ComponentKey>nosegun</ComponentKey>
-              <Loadout xsi:type="SimpleAmmoSelection">
+              <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>nose</SocketKey>
                 <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>wingoutoutboardr</SocketKey>
               <ComponentKey>outoutpylons1r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>wingoutoutboardr</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SGM-152 Consequence</string>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>wingoutboardr</SocketKey>
               <ComponentKey>outpylon_s2r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>wingoutboardr</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SGM-200 Derivative</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardr</SocketKey>
               <ComponentKey>inpylon_s2r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardr</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SDM-227 Axion</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>inpylon_s2l</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardl</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SDM-227 Axion</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>wingoutboardl</SocketKey>
               <ComponentKey>outpylon_s2l</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>wingoutboardl</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SGM-200 Derivative</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardl</SocketKey>
+              <ComponentKey>outoutpylons1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1616,41 +1550,51 @@ Finisher: 2x KBU-15 Bomb, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/no
         <CraftLoadout>
           <LoadoutName>A2A</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>nose</SocketKey>
               <ComponentKey>nosegun</ComponentKey>
-              <Loadout xsi:type="SimpleAmmoSelection">
+              <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>nose</SocketKey>
                 <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>wingoutoutboardr</SocketKey>
               <ComponentKey>outoutpylons1r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>wingoutoutboardr</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SGM-152 Consequence</string>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardr</SocketKey>
               <ComponentKey>inpylon_s2r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardr</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SDM-227 Axion</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>inpylon_s2l</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardl</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SDM-227 Axion</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardl</SocketKey>
+              <ComponentKey>outoutpylons1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1659,36 +1603,113 @@ Finisher: 2x KBU-15 Bomb, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/no
         <CraftLoadout>
           <LoadoutName>Strike</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>nose</SocketKey>
               <ComponentKey>nosegun</ComponentKey>
-              <Loadout xsi:type="SimpleAmmoSelection">
+              <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>nose</SocketKey>
                 <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardr</SocketKey>
+              <ComponentKey>outoutpylons1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>wingoutboardr</SocketKey>
               <ComponentKey>outpylon_s2r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>wingoutboardr</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SGM-200 Derivative</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>jammer</ComponentKey>
-              <Loadout xsi:type="SimpleOccupiedElement" />
+              <Loadout p3:type="SimpleOccupiedElement" />
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>wingoutboardl</SocketKey>
               <ComponentKey>outpylon_s2l</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>wingoutboardl</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SGM-200 Derivative</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardl</SocketKey>
+              <ComponentKey>outoutpylons1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>Oops all S1s</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>nose</SocketKey>
+              <ComponentKey>nosegun</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>nose</SocketKey>
+                <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>winginboardl</SocketKey>
+              <ComponentKey>inpylon_s1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>winginboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardl</SocketKey>
+              <ComponentKey>outoutpylons1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>winginboardr</SocketKey>
+              <ComponentKey>inpylon_s1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>winginboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardr</SocketKey>
+              <ComponentKey>outoutpylons1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1697,23 +1718,35 @@ Finisher: 2x KBU-15 Bomb, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/no
         <CraftLoadout>
           <LoadoutName>Scramble</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>nose</SocketKey>
               <ComponentKey>nosegun</ComponentKey>
-              <Loadout xsi:type="SimpleAmmoSelection">
+              <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>nose</SocketKey>
                 <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
           </Elements>
         </CraftLoadout>
         <CraftLoadout>
           <LoadoutName>Finisher</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardr</SocketKey>
+              <ComponentKey>outoutpylons1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardr</SocketKey>
               <ComponentKey>inpylon_s1r</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardr</SocketKey>
                 <MissileKeys>
                   <string>Stock/S1 Glide Bomb</string>
@@ -1721,22 +1754,32 @@ Finisher: 2x KBU-15 Bomb, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/no
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>centerline</SocketKey>
               <ComponentKey>centergun</ComponentKey>
-              <Loadout xsi:type="SimpleAmmoSelection">
+              <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>centerline</SocketKey>
                 <AmmoKey>KUIPER/19mm AP Hybrid Coilgun Shell</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement xsi:type="VariableSocketLoadout">
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>inpylon_s1l</ComponentKey>
-              <Loadout xsi:type="MissileSelection">
+              <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardl</SocketKey>
                 <MissileKeys>
                   <string>Stock/S1 Glide Bomb</string>
                   <string>Stock/S1 Glide Bomb</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardl</SocketKey>
+              <ComponentKey>outoutpylons1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
