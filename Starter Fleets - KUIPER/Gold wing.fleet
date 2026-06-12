@@ -1,0 +1,902 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Gold wing</Name>
+  <Version>3</Version>
+  <TotalPoints>3000</TotalPoints>
+  <FactionKey>KUIPER/kuiper</FactionKey>
+  <Description>Difficulty: &lt;color=green&gt;EASY&lt;/color&gt;
+
+Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two dedicated to point defense and one an anti-jamming boat. Gold Wing's goal in an engagement is to take an area and refuse to let it go. Using the ruggedness of the Kasr and the support network of the Kyves. When encountering Particularly stiff resistance Gold wing can count on a Salvo from the VLS-3 mounted on the Kasr's rear C4 to swing a fight or finish off a particularly tough targed.
+  </Description>
+  <ModDependencies>
+    <unsignedLong>3649434947</unsignedLong>
+  </ModDependencies>
+  <SortOverrideOrder>3</SortOverrideOrder>
+  <Ships>
+    <Ship>
+      <Key>39ccf429-6c79-4c20-8609-9dfcea5d8c76</Key>
+      <Name>Last To Fall</Name>
+      <Cost>2367</Cost>
+      <Callsign />
+      <Number>562</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>KUIPER/Kasr Class Heavy Cruiser</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>sp_1</Key>
+          <ComponentName>KUIPER/Type X40S Particle Lance</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_1</Key>
+          <ComponentName>KUIPER/Type X20C 'Magnum' Coilgun</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_3</Key>
+          <ComponentName>KUIPER/Type X20C 'Magnum' Coilgun</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_4</Key>
+          <ComponentName>KUIPER/Type X20C 'Magnum' Coilgun</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c4_2</Key>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData p2:type="ResizableCellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>S-gYR3fjiUyeqqupQ10Jpw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-316 Rending Claw - A</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>dr5IMr6JEkqbY-b0jMofJg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-316 Rending Claw - B</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>OxwwvOcTQUWqBNrUE0eo4g</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-316 Rending Claw - C</MunitionKey>
+                <Quantity>2</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>c3_1</Key>
+          <ComponentName>KUIPER/Type 20B 'Magnum' Coilgun</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c3_2</Key>
+          <ComponentName>KUIPER/Type 20B 'Magnum' Coilgun</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c3_3</Key>
+          <ComponentName>KUIPER/Type 20B 'Magnum' Coilgun</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_1</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_2</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_3</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_4</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lm_1</Key>
+          <ComponentName>KUIPER/Model 65 Reinforced Fusion Torch</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_1</Key>
+          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_2</Key>
+          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_3</Key>
+          <ComponentName>KUIPER/Large Redundant Charging Pathways</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_4</Key>
+          <ComponentName>KUIPER/Large Redundant Charging Pathways</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_1</Key>
+          <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_2</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_3</Key>
+          <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_4</Key>
+          <ComponentName>KUIPER/Small Redundant Charging Pathways</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_5</Key>
+          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_6</Key>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
+          <ComponentName>Stock/Citadel CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>cVuWExoefEOR3a9RERZrOg</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>16000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>y-ahtlIeXUqiDBZInVANpw</MagazineKey>
+                <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
+                <Quantity>2319</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>PwcEBvNS7E2mKT_ZnWjWAA</MagazineKey>
+                <MunitionKey>KUIPER/50mm Fragmentation Slug</MunitionKey>
+                <Quantity>1200</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>m-niEu2GEUObPF6s5AYb2g</MagazineKey>
+                <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
+                <Quantity>1000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_3</Key>
+          <ComponentName>KUIPER/Model C70B HDC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_4</Key>
+          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_5</Key>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_6</Key>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mc_1</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mc_2</Key>
+          <ComponentName>Stock/Damage Control Central</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mc_3</Key>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mc_4</Key>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mc_5</Key>
+          <ComponentName>KUIPER/Model C78B CNC Shop</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mc_6</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>RM_1</Key>
+          <ComponentName>KUIPER/Model C89 Pulsed Search Generator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>RM_2</Key>
+          <ComponentName>KUIPER/Model C81 Range Extender</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="Secondaries">
+          <MemberKeys>
+            <string>c3_1</string>
+            <string>c3_3</string>
+            <string>c3_2</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Lower Main Battery">
+          <MemberKeys>
+            <string>c4_4</string>
+            <string>c4_3</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Upper Main Battery">
+          <MemberKeys>
+            <string>c4_1</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <Key>684705b1-865f-4169-9325-1948d29e0354</Key>
+      <Name>Bluff</Name>
+      <Cost>214</Cost>
+      <Callsign>-P1</Callsign>
+      <Number>195</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>KUIPER/Kyve Class Corvette</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>c2_1</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_2</Key>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_3</Key>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_4</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_1</Key>
+          <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_1</Key>
+          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>g-NmdProaUq26LI5UYTL8A</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>825</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mNlkOZZrlkioYiLciCCOCw</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>6000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_1</Key>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_4</Key>
+          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <InitialFormation>
+        <GuideKey>39ccf429-6c79-4c20-8609-9dfcea5d8c76</GuideKey>
+        <RelativePosition>
+          <x>-23.81054</x>
+          <y>0</y>
+          <z>-21.3394775</z>
+        </RelativePosition>
+      </InitialFormation>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <Key>ff41c212-51ca-450e-9fa6-f43a8007be8c</Key>
+      <Name>Double</Name>
+      <Cost>214</Cost>
+      <Callsign>-P2</Callsign>
+      <Number>1475</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>KUIPER/Kyve Class Corvette</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>c2_1</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_2</Key>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_3</Key>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_4</Key>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_1</Key>
+          <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_1</Key>
+          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>g-NmdProaUq26LI5UYTL8A</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>825</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mNlkOZZrlkioYiLciCCOCw</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>6000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_1</Key>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_4</Key>
+          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups />
+      <InitialFormation>
+        <GuideKey>39ccf429-6c79-4c20-8609-9dfcea5d8c76</GuideKey>
+        <RelativePosition>
+          <x>22.7876015</x>
+          <y>0</y>
+          <z>-22.4708347</z>
+        </RelativePosition>
+      </InitialFormation>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+    <Ship>
+      <Key>2dce2106-9a9e-40dd-a458-3c50f2d67eef</Key>
+      <Name>Flash</Name>
+      <Cost>205</Cost>
+      <Callsign>-J</Callsign>
+      <Number>1017</Number>
+      <SymbolOption>0</SymbolOption>
+      <HullType>KUIPER/Kyve Class Corvette</HullType>
+      <SocketMap>
+        <HullSocket>
+          <Key>c2_1</Key>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_2</Key>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_3</Key>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c2_4</Key>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>mm_1</Key>
+          <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_1</Key>
+          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sm_3</Key>
+          <ComponentName>Stock/Small Reactor Booster</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
+          <ComponentName>Stock/Basic CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_2</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <Load />
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_1</Key>
+          <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_4</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+      </SocketMap>
+      <WeaponGroups>
+        <WepGroup Name="1">
+          <MemberKeys>
+            <string>c2_1</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="2">
+          <MemberKeys>
+            <string>c2_2</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="3">
+          <MemberKeys>
+            <string>c2_3</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="4">
+          <MemberKeys>
+            <string>c2_4</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>39ccf429-6c79-4c20-8609-9dfcea5d8c76</GuideKey>
+        <RelativePosition>
+          <x>0.143501282</x>
+          <y>31.3813782</y>
+          <z>32.1923523</z>
+        </RelativePosition>
+      </InitialFormation>
+      <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
+    </Ship>
+  </Ships>
+  <MissileTypes>
+    <MissileTemplate>
+      <SaveKey>$MODMIS$/SGM-H-316 Rending Claw - A</SaveKey>
+      <Designation>SGM-H-316</Designation>
+      <Nickname>Rending Claw - D</Nickname>
+      <AssociatedTemplateName>SGM-H-316 Rending Claw - D</AssociatedTemplateName>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#FBFF4C&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_ARAD_PULSED_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEKP</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-H-316 Rending Claw - D&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Delayed Contact Fuze, High Explosive, Kinetic Penetrator warhead.  It homes in on its target using command guidance from its launching ship.  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Anti-Radiation seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#FBFF4C&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
+$MISSILESTAT_BACKUPSEEKER: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
+
+&lt;b&gt;$MISSILEENGINE_STAGE_CRUISE|Cruise|&lt;/b&gt;
+$MISSILESTAT_SPEED: 180 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 16,004 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 2.8 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 0.9 $UNIT_GS
+
+&lt;b&gt;$MISSILEENGINE_STAGE_SPRINT|Sprint|&lt;/b&gt;
+$MISSILESTAT_SPEED: 791 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 3,692 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.1 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 20.5 $UNIT_GS
+
+: Stage Trigger at 3,090m from Target
+
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEKP
+
+&lt;b&gt;$MISSILESTAT_PENETRATOR&lt;/b&gt;
+$MISSILESTAT_ARMORDAMAGE: 602 $UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 251 $UNIT_HP
+
+&lt;b&gt;$MISSILESTAT_EXPLOSIVE&lt;/b&gt;
+$MISSILESTAT_COMPONENTDAMAGE: 5,040 $UNIT_HP
+
+$MISSILESTAT_HEALTH: 60 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 16 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>50</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>9667586b-3463-4347-9da8-52d7c1449ba0</TemplateKey>
+      <BaseColor>
+        <r>0.627451</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.9999998</r>
+        <g>0.9999999</g>
+        <b>0.9999999</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="CommandSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="PassiveARHSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Boosted Self-Screening Jammer</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16843008</ConvSalvo>
+              <HybridSalvo>16843008</HybridSalvo>
+              <CraftSalvo>16843008</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>7</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Kinetic Penetrator</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.5363414</A>
+              <B>0.4636586</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.8037186</A>
+              <B>0.05962323</B>
+              <C>0.136658147</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+      <ModDependencies />
+    </MissileTemplate>
+    <MissileTemplate>
+      <SaveKey>$MODMIS$/SGM-H-316 Rending Claw - B</SaveKey>
+      <Designation>SGM-H-316</Designation>
+      <Nickname>Rending Claw - E</Nickname>
+      <AssociatedTemplateName>SGM-H-316 Rending Claw - E</AssociatedTemplateName>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#FBFF4C&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_ARAD_PULSED_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEKP</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-H-316 Rending Claw - E&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Delayed Contact Fuze, High Explosive, Kinetic Penetrator warhead.  It homes in on its target using command guidance from its launching ship.  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Anti-Radiation seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#FBFF4C&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
+$MISSILESTAT_BACKUPSEEKER: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
+
+&lt;b&gt;$MISSILEENGINE_STAGE_CRUISE|Cruise|&lt;/b&gt;
+$MISSILESTAT_SPEED: 180 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 16,003 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 2.8 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 0.9 $UNIT_GS
+
+&lt;b&gt;$MISSILEENGINE_STAGE_SPRINT|Sprint|&lt;/b&gt;
+$MISSILESTAT_SPEED: 739 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 4,447 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.9 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 24.7 $UNIT_GS
+
+: Stage Trigger at 3,670m from Target
+
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEKP
+
+&lt;b&gt;$MISSILESTAT_PENETRATOR&lt;/b&gt;
+$MISSILESTAT_ARMORDAMAGE: 503 $UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 232 $UNIT_HP
+
+&lt;b&gt;$MISSILESTAT_EXPLOSIVE&lt;/b&gt;
+$MISSILESTAT_COMPONENTDAMAGE: 4,320 $UNIT_HP
+
+$MISSILESTAT_HEALTH: 80  (&lt;color=#4CFF72&gt;+20 &lt;/color&gt;)
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 16 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>41</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>5981fa9c-ad65-4192-b077-8a209649641c</TemplateKey>
+      <BaseColor>
+        <r>0.627451</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.9999998</r>
+        <g>0.9999999</g>
+        <b>0.9999999</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="CommandSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="PassiveARHSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Hardened Skin</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16843008</ConvSalvo>
+              <HybridSalvo>16843008</HybridSalvo>
+              <CraftSalvo>16843008</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Kinetic Penetrator</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.420115054</A>
+              <B>0.402392626</B>
+              <C>0.177492321</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.802048147</A>
+              <B>0.06005845</B>
+              <C>0.137893409</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+      <ModDependencies />
+    </MissileTemplate>
+    <MissileTemplate>
+      <SaveKey>$MODMIS$/SGM-H-316 Rending Claw - C</SaveKey>
+      <Designation>SGM-H-316</Designation>
+      <Nickname>Rending Claw - F</Nickname>
+      <AssociatedTemplateName>SGM-H-316 Rending Claw - F</AssociatedTemplateName>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#FBFF4C&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_ARAD_HOJ_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEKP</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-H-316 Rending Claw - F&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Delayed Contact Fuze, High Explosive, Kinetic Penetrator warhead.  It homes in on its target using command guidance from its launching ship.  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Home-on-Jam seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#FBFF4C&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
+$MISSILESTAT_BACKUPSEEKER: HOME-ON-JAM (&lt;color=#4CFF72&gt;RADAR&lt;/color&gt; JAMMING Signals Only)
+
+&lt;b&gt;$MISSILEENGINE_STAGE_CRUISE|Cruise|&lt;/b&gt;
+$MISSILESTAT_SPEED: 180 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 16,003 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 2.8 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 0.9 $UNIT_GS
+
+&lt;b&gt;$MISSILEENGINE_STAGE_SPRINT|Sprint|&lt;/b&gt;
+$MISSILESTAT_SPEED: 822 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 4,809 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 1.1 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 20.9 $UNIT_GS
+
+: Stage Trigger at 3,990m from Target
+
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEKP
+
+&lt;b&gt;$MISSILESTAT_PENETRATOR&lt;/b&gt;
+$MISSILESTAT_ARMORDAMAGE: 589 $UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 232 $UNIT_HP
+
+&lt;b&gt;$MISSILESTAT_EXPLOSIVE&lt;/b&gt;
+$MISSILESTAT_COMPONENTDAMAGE: 4,320 $UNIT_HP
+
+$MISSILESTAT_HEALTH: 60 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 16 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>48</Cost>
+      <BodyKey>Stock/SGM-H-3 Body</BodyKey>
+      <TemplateKey>2aa1ba94-8800-46db-a336-427926a8416e</TemplateKey>
+      <BaseColor>
+        <r>0.627451</r>
+        <g>0</g>
+        <b>0</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.9999998</r>
+        <g>0.9999999</g>
+        <b>0.9999999</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="CommandSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="PassiveARHSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>JammingOnly</TargetType>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Decoy Launcher</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16843008</ConvSalvo>
+              <HybridSalvo>16843008</HybridSalvo>
+              <CraftSalvo>16843008</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>true</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Kinetic Penetrator</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.6053198</A>
+              <B>0.394228727</B>
+              <C>0.000451475382</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.800953448</A>
+              <B>0.0603705123</B>
+              <C>0.138676047</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+      <ModDependencies />
+    </MissileTemplate>
+  </MissileTypes>
+</Fleet>
