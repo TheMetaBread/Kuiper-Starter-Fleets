@@ -15,7 +15,7 @@ The Kyve Corvettes are designed to quickly dart onto caps and evade enemy fire, 
 
 The "They Deserved Worse" will generally deploy a Point Defense cubesat before entering the 'A' capture point. If it survives, return it to a safe spot for later use in other dangerous capture attempts, to minimise losses.
   </Description>
-  <SortOverrideOrder>5</SortOverrideOrder>
+  <SortOverrideOrder>6</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
