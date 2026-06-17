@@ -1,32 +1,29 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Blue Wing</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>KUIPER/kuiper</FactionKey>
-  <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
-
-Blue Wing "Skirmishers" is a wing centered around Aggression, Mid-Range Firepower, Electronic Warfare, and Contesting Objectives Through Map Presence.
+  <Description>Difficulty: &lt;color=yellow&gt;MODERATE&lt;/color&gt;
+Blue Wing "Skirmishers" is a task force centered around Aggression, Mid-Range Firepower, Electronic Warfare, and Contesting Objectives Through Map Presence.
 Composed of a main formation of two Vespera cruisers and a jamming and targeting corvette along with three Kyve gunships intended to operate on their own to take objectives.
-The goal of this fleet is to take control of key objectives while chipping away at enemy forces both heavy and light. Supporting a trio of cannon equipped Kyves, The Magnum equipped Vespera light cruiser has a uniquely class-leading capability to punch into heavier assets. When utilized in conjunction with its superior mobility and electronic warfare this allows the Vesperas to operate aggressively with relative impunity. Beware of being engaged in cross-fire or being flanked. Jamming has difficulty working in multiple directions, and doesn’t last forever. The Vespera is NOT a survivable asset so treat it with care.
+The goal of this fleet is to take control of key objectives while chipping away at enemy forces both heavy and light. Supporting a trio of cannon equipped Kyves, The Magnum equipped Vespera light cruiser has a uniquely class-leading capability to punch into heavier assets. Utilized in conjuction superior mobility and electronic warfare allows the Vesperas to operate agressively with relative impunity but beware of being engaged in cross-fire or being flanked. Jamming has difficulty working in multiple directions. The Vespera is NOT a survivable asset so treat it with care.
 This fleet has the benefit of providing considerable air defense to ships around it.
-
 Notes:
--Though the Vesperas are equipped with their own independent radars capable of fireable tracks, this is merely a backup or used to operate independently. It is highly suggested while in formation to operate the Vesperas Radar Off and Comms Receive Only to maximize their ability to hide under jamming. Relying on the escorting Kyve to provide fire control locks.
--For Jam Resistance, the Vesperas are equipped with burnthrough pulse generators. Used in rapid succession this can give a track through jamming.
+-Though the Vesperas are equipped with their own independent radars capable of fireable tracks, this is merely a backup or used to operate independently. It is highly suggested while in formation to operate the Vesperas Radar Off and Comms Recieve Only to maximize their ability to hide under jamming. Relying on the escorting Kyve to provide fire control locks.
+-For Jam Resistence, the Vesperas are equipped with burnthrough pulse generators. Used in rapid succession this can give a track through jamming.
 -The castles present on the Kyves and Vesperas are dual-in-role. Providing long range defense against craft and missiles along with softening lighter assets.
 -Though the damage of castles is good into light assets they are incapable of breaking reinforced modules. Utilize the 50mm Magnums to secure kills.
  </Description>
-  <SortOverrideOrder>7</SortOverrideOrder>
+  <SortOverrideOrder>5</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
   <Ships>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>6e0b1e46-63a4-4bbd-a23f-77f637ee4316</Key>
       <Name>Whirlpool</Name>
-      <Cost>1005</Cost>
+      <Cost>999</Cost>
       <Callsign>[Gun CL] Whirlpool</Callsign>
       <Number>261</Number>
       <SymbolOption>0</SymbolOption>
@@ -57,38 +54,38 @@ Notes:
           <ComponentName>KUIPER/Type 20B 'Magnum' Coilgun</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>c1_bot_aft</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>la2sRjOo9UKfmnFnPucmKw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>LLuLxAM6kkOf9QVwPjGiXw</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>10</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_top_right</Key>
+          <Key>c1_top_fore</Key>
           <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>c1_top_left</Key>
+          <Key>c1_top_aft</Key>
+          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_bot_fore</Key>
+          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_bot_aft</Key>
           <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bot_right</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_bot_left</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>SFKadoq53Ea10z-FT1nXUA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xpbfafdzDk68FcZZ2uhF_g</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>lc_1</Key>
@@ -97,7 +94,7 @@ Notes:
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>V2qT36PqAECz4qvImbo7ZA</MagazineKey>
@@ -115,9 +112,19 @@ Notes:
                 <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
+                <MagazineKey>uU-GOWO0_0WFHsCE8JrRvg</MagazineKey>
+                <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
+                <Quantity>2000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
                 <MagazineKey>ZJNkf76st0iMBGanOdfQmg</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>8000</Quantity>
+                <Quantity>6000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>lMb7cenRnUmc3_QDbgnx7A</MagazineKey>
+                <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
+                <Quantity>2000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -132,7 +139,7 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
-          <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_4</Key>
@@ -152,23 +159,15 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>drive_2</Key>
-          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
           <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>mm_2</Key>
-          <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>mm_3</Key>
           <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>sm_1</Key>
-          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_2</Key>
@@ -194,15 +193,20 @@ Notes:
             <string>c3_6</string>
           </MemberKeys>
         </WepGroup>
+        <WepGroup Name="Castles">
+          <MemberKeys>
+            <string>c1_bot_fore</string>
+            <string>c1_top_aft</string>
+          </MemberKeys>
+        </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>0bc4098d-116e-4143-a05d-ec18bfcfbee6</Key>
       <Name>Hailstorm</Name>
-      <Cost>1005</Cost>
+      <Cost>999</Cost>
       <Callsign>[Gun CL] Hailstorm</Callsign>
       <Number>481</Number>
       <SymbolOption>0</SymbolOption>
@@ -233,38 +237,38 @@ Notes:
           <ComponentName>KUIPER/Type 20B 'Magnum' Coilgun</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>c1_bot_aft</Key>
-          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>la2sRjOo9UKfmnFnPucmKw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>LLuLxAM6kkOf9QVwPjGiXw</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>10</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_top_right</Key>
+          <Key>c1_top_fore</Key>
           <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>c1_top_left</Key>
+          <Key>c1_top_aft</Key>
+          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_bot_fore</Key>
+          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>c1_bot_aft</Key>
           <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bot_right</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_bot_left</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>SFKadoq53Ea10z-FT1nXUA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xpbfafdzDk68FcZZ2uhF_g</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>lc_1</Key>
@@ -273,7 +277,7 @@ Notes:
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>V2qT36PqAECz4qvImbo7ZA</MagazineKey>
@@ -291,9 +295,19 @@ Notes:
                 <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
+                <MagazineKey>uU-GOWO0_0WFHsCE8JrRvg</MagazineKey>
+                <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
+                <Quantity>2000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
                 <MagazineKey>ZJNkf76st0iMBGanOdfQmg</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>8000</Quantity>
+                <Quantity>6000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>lMb7cenRnUmc3_QDbgnx7A</MagazineKey>
+                <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
+                <Quantity>2000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -308,7 +322,7 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
-          <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_4</Key>
@@ -328,23 +342,15 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>drive_2</Key>
-          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
           <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>mm_2</Key>
-          <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>mm_3</Key>
           <ComponentName>KUIPER/Redundant Charging Pathways</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>sm_1</Key>
-          <ComponentName>Stock/Small Reactor Booster</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_2</Key>
@@ -370,24 +376,29 @@ Notes:
             <string>c3_6</string>
           </MemberKeys>
         </WepGroup>
+        <WepGroup Name="Castles">
+          <MemberKeys>
+            <string>c1_bot_fore</string>
+            <string>c1_top_aft</string>
+          </MemberKeys>
+        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
         <GuideKey>6e0b1e46-63a4-4bbd-a23f-77f637ee4316</GuideKey>
         <RelativePosition>
-          <x>-2.17004013</x>
-          <y>7.190441</y>
-          <z>-37.23785</z>
+          <x>-0.5523834</x>
+          <y>13.9145317</y>
+          <z>-38.78576</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>2382b490-4227-4216-8e90-4449e9542db7</Key>
       <Name>Whispers In The Dark</Name>
-      <Cost>215</Cost>
-      <Callsign>[JAM/ANTIJAM] Whispers In The Dark</Callsign>
+      <Cost>335</Cost>
+      <Callsign>[JAM/Targeting DDC] Whispers In The Dark</Callsign>
       <Number>1164</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
@@ -399,85 +410,6 @@ Notes:
         <HullSocket>
           <Key>c2_2</Key>
           <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c2_3</Key>
-          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>sm_1</Key>
-          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_1</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_2</Key>
-          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>sc_1</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load />
-          </ComponentData>
-        </HullSocket>
-      </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="JAM L">
-          <MemberKeys>
-            <string>c2_1</string>
-          </MemberKeys>
-        </WepGroup>
-        <WepGroup Name="JAM R">
-          <MemberKeys>
-            <string>c2_2</string>
-          </MemberKeys>
-        </WepGroup>
-        <WepGroup Name="ANTIJAM L">
-          <MemberKeys>
-            <string>c2_3</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
-      <InitialFormation>
-        <GuideKey>6e0b1e46-63a4-4bbd-a23f-77f637ee4316</GuideKey>
-        <RelativePosition>
-          <x>12.9938927</x>
-          <y>-9.243149</y>
-          <z>-23.6316376</z>
-        </RelativePosition>
-      </InitialFormation>
-      <TemplateMissileTypes />
-      <TemplateSpacecraftTypes />
-    </Ship>
-    <Ship>
-      <SaveID xsi:nil="true" />
-      <Key>17aa833f-90c8-477a-8f01-1dc3aa1c331b</Key>
-      <Name>Voices Of The Void</Name>
-      <Cost>176</Cost>
-      <Callsign>[Targeting FS] Voices Of The Void</Callsign>
-      <Number>540</Number>
-      <SymbolOption>0</SymbolOption>
-      <HullType>KUIPER/Kyve Class Corvette</HullType>
-      <SocketMap>
-        <HullSocket>
-          <Key>c2_1</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>QVeB-kYtiE6bfsIaEhuFDw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
-                <Quantity>1</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
@@ -492,10 +424,6 @@ Notes:
           <ComponentName>KUIPER/Model C81 Range Extender</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>sm_3</Key>
-          <ComponentName>Stock/Small Reactor Booster</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>lc_1</Key>
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
@@ -505,10 +433,15 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>sc_1</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load />
-          </ComponentData>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_2</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_3</Key>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sc_4</Key>
@@ -519,24 +452,34 @@ Notes:
           <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="JAM L">
+          <MemberKeys>
+            <string>c2_1</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="JAM R">
+          <MemberKeys>
+            <string>c2_2</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <InitialFormation>
         <GuideKey>6e0b1e46-63a4-4bbd-a23f-77f637ee4316</GuideKey>
         <RelativePosition>
-          <x>-15.9682159</x>
-          <y>-10.6675262</y>
-          <z>-22.2892761</z>
+          <x>2.58896637</x>
+          <y>-14.2211246</y>
+          <z>-30.920433</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>37839efa-bc32-419e-9003-03430bb01d25</Key>
       <Name>Dread Canary</Name>
-      <Cost>200</Cost>
-      <Callsign>[Guncap FS] Dread Canary</Callsign>
+      <Cost>223</Cost>
+      <Callsign>[Guncap DDC] Dread Canary</Callsign>
       <Number>687</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
@@ -544,15 +487,15 @@ Notes:
         <HullSocket>
           <Key>c2_1</Key>
           <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>kRinGmwkIkO40YEAQ40trw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>6</Quantity>
+                <Quantity>8</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>lrWa5vpNzU6Xs8E8YdLbBg</MagazineKey>
+                <MagazineKey>pcqAhuQcek-TyFH-i4nyvw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -586,7 +529,7 @@ Notes:
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>Sb3Qp17dRUavXg-rXo6XiQ</MagazineKey>
@@ -611,7 +554,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>5dXywOmIbUmRSAbr1ODaWw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -623,6 +566,10 @@ Notes:
         <HullSocket>
           <Key>sc_2</Key>
           <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>LM_3</Key>
+          <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -642,11 +589,10 @@ Notes:
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>7e9c31c4-066b-49f9-92da-2897bfb161a0</Key>
       <Name>Sinking Feeling</Name>
-      <Cost>200</Cost>
-      <Callsign>[Guncap FS] Sinking Feeling</Callsign>
+      <Cost>222</Cost>
+      <Callsign>[Guncap DDC] Sinking Feeling</Callsign>
       <Number>1206</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
@@ -654,15 +600,15 @@ Notes:
         <HullSocket>
           <Key>c2_1</Key>
           <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>kRinGmwkIkO40YEAQ40trw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>6</Quantity>
+                <Quantity>7</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>lrWa5vpNzU6Xs8E8YdLbBg</MagazineKey>
+                <MagazineKey>pcqAhuQcek-TyFH-i4nyvw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -696,7 +642,7 @@ Notes:
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>Sb3Qp17dRUavXg-rXo6XiQ</MagazineKey>
@@ -721,7 +667,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>5dXywOmIbUmRSAbr1ODaWw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -733,6 +679,10 @@ Notes:
         <HullSocket>
           <Key>sc_2</Key>
           <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>LM_3</Key>
+          <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -752,11 +702,10 @@ Notes:
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>43db3df0-0b74-4bd8-9b00-268aa6fc1676</Key>
       <Name>Imminent Disaster</Name>
-      <Cost>199</Cost>
-      <Callsign>[Guncap FS] Imminent Disaster</Callsign>
+      <Cost>222</Cost>
+      <Callsign>[Guncap DDC] Imminent Disaster</Callsign>
       <Number>819</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
@@ -764,15 +713,15 @@ Notes:
         <HullSocket>
           <Key>c2_1</Key>
           <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>kRinGmwkIkO40YEAQ40trw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>5</Quantity>
+                <Quantity>7</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>lrWa5vpNzU6Xs8E8YdLbBg</MagazineKey>
+                <MagazineKey>pcqAhuQcek-TyFH-i4nyvw</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -806,7 +755,7 @@ Notes:
         <HullSocket>
           <Key>lc_2</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>Sb3Qp17dRUavXg-rXo6XiQ</MagazineKey>
@@ -831,7 +780,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>5dXywOmIbUmRSAbr1ODaWw</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -843,6 +792,10 @@ Notes:
         <HullSocket>
           <Key>sc_2</Key>
           <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>LM_3</Key>
+          <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -864,21 +817,22 @@ Notes:
   </Ships>
   <MissileTypes>
     <MissileTemplate>
-      <Designation>SGM-122</Designation>
-      <Nickname>Dont Shoot Me!</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-122 Dont Shoot Me!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using a Semi-Active Radar seeker.
+      <SaveKey>$MODMIS$/SGM-122 Dont Shoot Me!</SaveKey>
+      <Designation>SGM-100</Designation>
+      <Nickname>Ceremonial Arming Missile - Dont Shoot!</Nickname>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-100 Ceremonial Arming Missile - Dont Shoot!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 $MISSILESTAT_SPEED: 300 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 3,507 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 7.7 $UNIT_GS
-$MISSILESTAT_TERMINALS: None
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
 $MISSILESTAT_ARMORDAMAGE: 31$UNIT_CENTIMETERS
@@ -898,21 +852,21 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <BodyKey>Stock/SGM-1 Body</BodyKey>
       <TemplateKey>994b9af4-3cb7-499a-a303-399b582b8a10</TemplateKey>
       <BaseColor>
-        <r>1</r>
-        <g>0.4862745</g>
-        <b>0</b>
+        <r>0.9999999</r>
+        <g>0.9999999</g>
+        <b>0.9999998</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>0.254901975</r>
-        <g>0.254901975</g>
-        <b>0.254901975</b>
+        <r>0.9999999</r>
+        <g>0.926878333</g>
+        <b>0</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
@@ -921,7 +875,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
@@ -949,7 +903,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>3</Size>
-          <InstalledComponent xsi:type="MissileEngineSettings">
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
               <A>0.333333343</A>
@@ -959,6 +913,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
       </Sockets>
+      <ModDependencies />
     </MissileTemplate>
   </MissileTypes>
 </Fleet>
