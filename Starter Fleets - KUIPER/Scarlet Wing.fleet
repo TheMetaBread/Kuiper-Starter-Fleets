@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Red Wing</Name>
+  <Name>Scarlet Wing</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>KUIPER/kuiper</FactionKey>
   <Description>Difficulty: &lt;color=green&gt;EASY&lt;/color&gt;
 
-Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage opposing capital ships. To facilitate this it deploys 'BB-291 Ascension Of Pride' A heavily reinforced variant of the Altea with perhaps the most elite damage control teams in the whole fleet. The main battery consists of three Type 31B quadruple barrel 308mm autocannon turrets and one Type 31 double barrel 308mm turret. While its hardkill network is substantial the ship lacks soft kill so one must beware of missile strikes. It is also vulnerable to being temporarily incapacitated due to only possessing a single magazine. The ‘Ascension Of Pride' is also supported by a pair of scouting Kyves, though both of them lack any offensive capability of their own and only serve to provide awareness to  The ‘Ascension Of Pride’. It should be noted that while the battleship can take hits, it will last much longer if it uses its upgraded linear thrust to evade as much of the fire it takes as possible.
+Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to engage opposing capital ships. To facilitate this it deploys 'BB-291 Whisper of Redemption' A heavily reinforced variant of the Altea with perhaps the most elite damage control teams in the whole fleet. The main battery consists of three Type 31B quadruple barrel 308mm autocannon turrets and one Type 31 double barrel 308mm turret. While its hardkill network is substantial the ship lacks soft kill so one must beware of missile strikes. It is also vulnerable to being temporarily incapacitated due to only possessing a single magazine. The ‘Whisper of Redemption' is also supported by a pair of scouting Kyves, though both of them lack any offensive capability of their own and only serve to provide awareness to  The ‘Whisper of Redemption’. It should be noted that while the battleship can take hits, it will last much longer if it uses its upgraded linear thrust to evade as much of the fire it takes as possible.
   </Description>
   <SortOverrideOrder>1</SortOverrideOrder>
   <ModDependencies>
@@ -14,11 +14,10 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
   </ModDependencies>
   <Ships>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>9f9659f3-9942-4c40-a0b8-0f84eeee28be</Key>
-      <Name>Ascension Of Pride</Name>
+      <Name>Whisper of Redemption</Name>
       <Cost>2720</Cost>
-      <Callsign>[Super BB] Ascension Of Pride</Callsign>
+      <Callsign>[Line BB] Whisper of Redemption</Callsign>
       <Number>291</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Altea Class Battleship</HullType>
@@ -82,19 +81,19 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
         <HullSocket>
           <Key>c1_top</Key>
           <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>OQfZjPS_n0qm2t9xC080UA</MagazineKey>
                 <MunitionKey>Stock/EA14 Chaff Decoy</MunitionKey>
-                <Quantity>23</Quantity>
+                <Quantity>18</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>c1_bottom</Key>
-          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -106,7 +105,7 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
         </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
-          <ComponentName>KUIPER/Model 53 'Phoenix' Fusion Torch</ComponentName>
+          <ComponentName>KUIPER/Model 54 'Falcon' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_2</Key>
@@ -179,17 +178,17 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
         <HullSocket>
           <Key>lc_6</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>xY4mRNt-4EWp8zZb3K32Fw</MagazineKey>
                 <MunitionKey>KUIPER/308mm HVAP Shell</MunitionKey>
-                <Quantity>2200</Quantity>
+                <Quantity>1900</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>H3WsYtIsiUu8_ODduPmw4w</MagazineKey>
                 <MunitionKey>KUIPER/308mm HE Shell</MunitionKey>
-                <Quantity>2150</Quantity>
+                <Quantity>1900</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>nV2ZAsSrJkiV9LFfI_QtEA</MagazineKey>
@@ -199,24 +198,20 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
               <MagSaveData>
                 <MagazineKey>gGDn8mMiikOQIEeh0A_e5g</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Sp9f2cuO5EKESqmopy6LaA</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>4000</Quantity>
+                <Quantity>2500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Ibd8nLTGL0W8Fd0csPzn3A</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>14000</Quantity>
+                <Quantity>18000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_7</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_8</Key>
@@ -301,11 +296,10 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>2acd9c32-6a49-4778-9863-596c222f18ff</Key>
-      <Name>Call To Arms</Name>
+      <Name>Courier of Opportunity</Name>
       <Cost>140</Cost>
-      <Callsign>[Rec FS] Call To Arms</Callsign>
+      <Callsign>[Rec DDC] Courier of Opportunity</Callsign>
       <Number>1423</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
@@ -340,11 +334,10 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
       <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
-      <SaveID xsi:nil="true" />
       <Key>bc5a1e49-436f-4dae-87b6-c1ad81805dc9</Key>
-      <Name>Abrupt Diplomacy</Name>
+      <Name>Agent of Courage</Name>
       <Cost>140</Cost>
-      <Callsign>[Rec FS] Abrupt Diplomacy</Callsign>
+      <Callsign>[Rec DDC] Agent of Courage</Callsign>
       <Number>711</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
@@ -379,6 +372,4 @@ Red Wing "Solstice" is a heavy frontline wing, its principle task is to engage o
       <TemplateSpacecraftTypes />
     </Ship>
   </Ships>
-  <MissileTypes />
-  <CraftTypes />
 </Fleet>
