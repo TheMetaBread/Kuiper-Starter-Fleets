@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Gold wing</Name>
   <Version>3</Version>
@@ -16,7 +16,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
     <Ship>
       <Key>39ccf429-6c79-4c20-8609-9dfcea5d8c76</Key>
       <Name>Last To Fall</Name>
-      <Cost>2367</Cost>
+      <Cost>2371</Cost>
       <Callsign />
       <Number>562</Number>
       <SymbolOption>0</SymbolOption>
@@ -119,7 +119,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
         </HullSocket>
         <HullSocket>
           <Key>sm_3</Key>
-          <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
+          <ComponentName>KUIPER/Small Redundant Charging Pathways</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_4</Key>
@@ -150,7 +150,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
               <MagSaveData>
                 <MagazineKey>y-ahtlIeXUqiDBZInVANpw</MagazineKey>
                 <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
-                <Quantity>2319</Quantity>
+                <Quantity>2300</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>PwcEBvNS7E2mKT_ZnWjWAA</MagazineKey>
@@ -183,7 +183,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -207,11 +207,15 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
         </HullSocket>
         <HullSocket>
           <Key>RM_1</Key>
-          <ComponentName>KUIPER/Model C89 Pulsed Search Generator</ComponentName>
+          <ComponentName>KUIPER/Model C84 Integrated Fire Control Processor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RM_2</Key>
           <ComponentName>KUIPER/Model C81 Range Extender</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>RM_3</Key>
+          <ComponentName>KUIPER/Model C89 Pulsed Search Generator</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
@@ -240,7 +244,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
     <Ship>
       <Key>684705b1-865f-4169-9325-1948d29e0354</Key>
       <Name>Bluff</Name>
-      <Cost>214</Cost>
+      <Cost>212</Cost>
       <Callsign>-P1</Callsign>
       <Number>195</Number>
       <SymbolOption>0</SymbolOption>
@@ -282,7 +286,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
               <MagSaveData>
                 <MagazineKey>g-NmdProaUq26LI5UYTL8A</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>825</Quantity>
+                <Quantity>675</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>mNlkOZZrlkioYiLciCCOCw</MagazineKey>
@@ -316,7 +320,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
     <Ship>
       <Key>ff41c212-51ca-450e-9fa6-f43a8007be8c</Key>
       <Name>Double</Name>
-      <Cost>214</Cost>
+      <Cost>212</Cost>
       <Callsign>-P2</Callsign>
       <Number>1475</Number>
       <SymbolOption>0</SymbolOption>
@@ -358,7 +362,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
               <MagSaveData>
                 <MagazineKey>g-NmdProaUq26LI5UYTL8A</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>825</Quantity>
+                <Quantity>675</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>mNlkOZZrlkioYiLciCCOCw</MagazineKey>
@@ -393,7 +397,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
       <Key>2dce2106-9a9e-40dd-a458-3c50f2d67eef</Key>
       <Name>Flash</Name>
       <Cost>205</Cost>
-      <Callsign>-J</Callsign>
+      <Callsign>-I</Callsign>
       <Number>1017</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
