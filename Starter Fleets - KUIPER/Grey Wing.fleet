@@ -856,14 +856,14 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
       <SaveKey>$MODMIS$/SDM-227 Axion</SaveKey>
       <Designation>SDM-227</Designation>
       <Nickname>Axion</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.  MISSILEDETAIL_FALLBACK
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
 
 &lt;b&gt;$MISSILEENGINE_STAGE_BOOST|Boost|&lt;/b&gt;
 $MISSILESTAT_SPEED: 850 $UNIT_METERSPERSEC
@@ -985,21 +985,21 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <SaveKey>$MODMIS$/SGM-200 Derivative</SaveKey>
       <Designation>SGM-200</Designation>
       <Nickname>Derivative</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/[&lt;color=#FBFF4C&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;] - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/[&lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;] - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
       <LongDescription>The &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using command guidance from its launching ship.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#FBFF4C&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#D3D11F&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-$MISSILESTAT_VALIDATOR: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#FBFF4C&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_VALIDATOR: $MISSILESEEKER_MODE_COMMAND_CAPS (&lt;color=#D3D11F&gt;$MISSILESEEKER_COMMAND_COMMSNOTE&lt;/color&gt;)
 
 $MISSILESTAT_SPEED: 216 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 6,879 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.9 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 4.8 $UNIT_GS
 $MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_WEAVE|Weave|
-(&lt;color=#FBFF4C&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
+(&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
 $MISSILESTAT_ARMORDAMAGE: 60$UNIT_CENTIMETERS
@@ -1094,13 +1094,13 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <SaveKey>$MODMIS$/SGM-122 Dont Fire Me!</SaveKey>
       <Designation>SGM-122</Designation>
       <Nickname>Dont Fire Me!</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
       <LongDescription>The &lt;noparse&gt;SGM-122 Dont Fire Me!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
 $MISSILESTAT_SPEED: 300 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 3,507 $UNIT_METERS
@@ -1193,13 +1193,13 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <SaveKey>$MODMIS$/SGM-127 Defender</SaveKey>
       <Designation>SGM-127</Designation>
       <Nickname>Defender</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
       <LongDescription>The &lt;noparse&gt;SGM-127 Defender&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
 $MISSILESTAT_SPEED: 250 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 2,000 $UNIT_METERS
@@ -1291,19 +1291,19 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <SaveKey>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</SaveKey>
       <Designation>SSM-152</Designation>
       <Nickname>Consequence</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#FF2525&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SSM-1 body, which is a nimble space-superiority missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using an Active Radar seeker.  MISSILEDETAIL_FALLBACK
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)/$MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SSM-1 body, which is a nimble space-superiority missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using a Passive Wake seeker.  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#FF2525&gt;WAKE&lt;/color&gt;)
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
+$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-$MISSILESTAT_SPEED: 350 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 3,200 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.9 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 6.2 $UNIT_GS
+$MISSILESTAT_SPEED: 270 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 5,200 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.7 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 5.1 $UNIT_GS
 $MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
@@ -1337,20 +1337,20 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>true</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
           <InstalledComponent p2:type="PassiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>true</DetectPDTargets>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -1386,9 +1386,9 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
-              <A>0.663417459</A>
-              <B>0.19924815</B>
-              <C>0.137334391</C>
+              <A>0.131051362</A>
+              <B>0.756994545</B>
+              <C>0.111954093</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -1415,19 +1415,9 @@ $CRAFTSTAT_DR: 50 %
 $CRAFTSTAT_RADARSIG: 100 %
 $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
-$CRAFTSTAT_CMDCAPACITY: 2  (&lt;link="craft-missile-cmdcapacity"&gt;&lt;color=#4CFF72&gt;+1 &lt;/color&gt;&lt;/link&gt;)
-$CRAFTSTAT_MISSILEANGLE: 120 $UNIT_DEGREES (&lt;link="craft-missile-ontargetangle"&gt;&lt;color=#4CFF72&gt;+400%&lt;/color&gt;&lt;/link&gt;)
+$CRAFTSTAT_CMDCAPACITY: 2  (&lt;link="craft-missile-cmdcapacity"&gt;&lt;color=#3BC81E&gt;+1 &lt;/color&gt;&lt;/link&gt;)
+$CRAFTSTAT_MISSILEANGLE: 120 $UNIT_DEGREES (&lt;link="craft-missile-ontargetangle"&gt;&lt;color=#3BC81E&gt;+400%&lt;/color&gt;&lt;/link&gt;)
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
-
-Pre-Flight Work: 64.9
-$CRAFTSTAT_PREFLIGHTTIME
-$CRAFTSTAT_PREFLIGHT_NOSHIPS
-
-Inventory
- - 19mm AP Hybrid Coilgun Shell: 40
- - KBU-15 Bomb: 4
- - SSM-152 Consequence: 2
-Cost To Arm: 6.08
 
 $CRAFTSTAT_IDLESPEED: 40 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 80 $UNIT_METERSPERSEC
@@ -1435,8 +1425,8 @@ $CRAFTSTAT_HBRNSPEED: 120 $UNIT_METERSPERSEC
 $CRAFTSTAT_COMBATSPEED: 120 $UNIT_METERSPERSEC
 
 $CRAFTSTAT_FUELCAPACITY: 1,250
-$CRAFTSTAT_LOITERTIME: 21:50
-$CRAFTSTAT_CRUISERANGE: 95 $UNIT_KILOMETERS
+$CRAFTSTAT_LOITERTIME: 14:53
+$CRAFTSTAT_CRUISERANGE: 63 $UNIT_KILOMETERS
 
 $CRAFTSTAT_THRUSTERPOWER: 55 
 $CRAFTSTAT_TURNRATE: 30 
@@ -1445,7 +1435,6 @@ $CRAFTSTAT_OFFANGLETURN: 75 $UNIT_DEGREES
 $CRAFTSTAT_FRAMEMASS: 10.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 10.00
-Thrust-to-Weight: 4.13
 
 &lt;b&gt;$CRAFTSTAT_COMPONENTS:&lt;/b&gt;
 $CRAFTSOCKETNAME_AVIONICS|Avionics|: $CRAFTCOMPNAME_MISSILE_CONTROL_GUIDANCE_SUITE|Missile Control Guidance Suite|
@@ -1457,7 +1446,7 @@ $CRAFTSOCKETNAME_ENGINES|Engines|: $GEN_NONE
 Multi: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
 A2A: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-227 Axion&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
 Strike: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-200 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
-Oops all S1s: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
+Oops all S1s: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
 Scramble: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|
 Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KBU_15_BOMB|KBU-15 Bomb|, 40x $AMMONAME_19MM_AP_HYBRID_COILGUN_SHELL|19mm AP Hybrid Coilgun Shell|, 2x $AMMONAME_KBU_15_BOMB|KBU-15 Bomb|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;</LongDescription>
       <Cost>11</Cost>
@@ -1669,8 +1658,27 @@ Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KB
                 <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardr</SocketKey>
+              <ComponentKey>outoutpylons1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>winginboardr</SocketKey>
+              <ComponentKey>inpylon_s1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>winginboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>inpylon_s1l</ComponentKey>
@@ -1692,27 +1700,6 @@ Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KB
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>winginboardr</SocketKey>
-              <ComponentKey>inpylon_s1r</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>winginboardr</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
-                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>wingoutoutboardr</SocketKey>
-              <ComponentKey>outoutpylons1r</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>wingoutoutboardr</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
           </Elements>
         </CraftLoadout>
         <CraftLoadout>
@@ -1726,8 +1713,6 @@ Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KB
                 <AmmoKey>KUIPER/16.7mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
           </Elements>
         </CraftLoadout>
         <CraftLoadout>
@@ -1788,7 +1773,7 @@ Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KB
       </Loadouts>
       <TemplateMissileTypes />
       <ModDependencies>
-        <unsignedLong>3649434947</unsignedLong>
+        <unsignedLong>18446744072861743531</unsignedLong>
       </ModDependencies>
     </CraftTemplate>
   </CraftTypes>

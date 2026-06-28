@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name>Gold wing</Name>
+  <Name>Gold Wing</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>KUIPER/kuiper</FactionKey>

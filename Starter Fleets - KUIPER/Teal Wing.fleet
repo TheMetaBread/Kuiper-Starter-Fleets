@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Teal Wing</Name>
   <Version>3</Version>
-  <TotalPoints>2992</TotalPoints>
+  <TotalPoints>3000</TotalPoints>
   <FactionKey>KUIPER/kuiper</FactionKey>
   <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
@@ -16,12 +16,11 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
     <Ship>
       <Key>35491278-96cb-472d-a64b-5a1d3de78736</Key>
       <Name>While You Fall Forward Feathered</Name>
-      <Cost>1510</Cost>
+      <Cost>1500</Cost>
       <Callsign />
       <Number>32</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Valorous Class Escort Carrier</HullType>
-      <ModDependencies />
       <SocketMap>
         <HullSocket>
           <Key>c4_1_cv</Key>
@@ -31,7 +30,7 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
               <MagSaveData>
                 <MagazineKey>7IDsBS6GB0iWh-OD_T8m9Q</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>14</Quantity>
+                <Quantity>12</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>VdC1z4KOFkCWOD1ZltUn3Q</MagazineKey>
@@ -179,11 +178,6 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
-                <MagazineKey>z452xoCPqkWoRwSWcNjCfQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-221 Squawk</MunitionKey>
-                <Quantity>14</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>Z9Vz9-DWJEWspVRUI3O5GA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-375 Screech</MunitionKey>
                 <Quantity>20</Quantity>
@@ -191,22 +185,12 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
               <MagSaveData>
                 <MagazineKey>L8xzPE2c7UmIVuoBQtt1WQ</MagazineKey>
                 <MunitionKey>KUIPER/70mm Coilgun Slug</MunitionKey>
-                <Quantity>512</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z_4jlNJx10-t9A1tNRm7qA</MagazineKey>
-                <MunitionKey>KUIPER/Particle Array</MunitionKey>
-                <Quantity>2</Quantity>
+                <Quantity>400</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>FqeFWOiuXUy7eTr2GIG3UA</MagazineKey>
                 <MunitionKey>KUIPER/105mm HVAP Shell</MunitionKey>
-                <Quantity>1440</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UeHBDNMaR0yHPM6LVgtQ1g</MagazineKey>
-                <MunitionKey>KUIPER/16.7mm Coilgun Slug</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>900</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>t6iX3mQepkOgkY7OgpR3zA</MagazineKey>
@@ -216,7 +200,7 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
               <MagSaveData>
                 <MagazineKey>Xpa-UmhPxUu9O_wp8Sl3gg</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>8000</Quantity>
+                <Quantity>24000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>il6q_RPUykCKRZcm_w5nxQ</MagazineKey>
@@ -238,6 +222,21 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
                 <MunitionKey>KUIPER/19mm AP Hybrid Coilgun Shell</MunitionKey>
                 <Quantity>500</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>KDUBCvvUFkeyYCbKmcnz6A</MagazineKey>
+                <MunitionKey>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</MunitionKey>
+                <Quantity>72</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>tVEo9esLekm8LmpFtFnEDw</MagazineKey>
+                <MunitionKey>KUIPER/Particle Array</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>nJgmn6TlV0GG7pzGNePb-g</MagazineKey>
+                <MunitionKey>KUIPER/16.7mm Coilgun Slug</MunitionKey>
+                <Quantity>2000</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -249,13 +248,30 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
     <Ship>
       <Key>4cd9f1b7-6b50-4932-ac37-10814fea978a</Key>
       <Name>You Call For The Flames</Name>
-      <Cost>1490</Cost>
+      <Cost>1500</Cost>
       <Callsign />
       <Number>84</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Valorous Class Escort Carrier</HullType>
-      <ModDependencies />
       <SocketMap>
+        <HullSocket>
+          <Key>c4_1_cv</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>7IDsBS6GB0iWh-OD_T8m9Q</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>VdC1z4KOFkCWOD1ZltUn3Q</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-122 Dont Fire Me!</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
         <HullSocket>
           <Key>mm_1</Key>
           <ComponentName>KUIPER/Model 50 Fusion Torch</ComponentName>
@@ -394,11 +410,6 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
-                <MagazineKey>z452xoCPqkWoRwSWcNjCfQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SDM-221 Squawk</MunitionKey>
-                <Quantity>14</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>Z9Vz9-DWJEWspVRUI3O5GA</MagazineKey>
                 <MunitionKey>$MODMIS$/SGT-375 Screech</MunitionKey>
                 <Quantity>20</Quantity>
@@ -406,22 +417,12 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
               <MagSaveData>
                 <MagazineKey>L8xzPE2c7UmIVuoBQtt1WQ</MagazineKey>
                 <MunitionKey>KUIPER/70mm Coilgun Slug</MunitionKey>
-                <Quantity>512</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>Z_4jlNJx10-t9A1tNRm7qA</MagazineKey>
-                <MunitionKey>KUIPER/Particle Array</MunitionKey>
-                <Quantity>2</Quantity>
+                <Quantity>400</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>FqeFWOiuXUy7eTr2GIG3UA</MagazineKey>
                 <MunitionKey>KUIPER/105mm HVAP Shell</MunitionKey>
-                <Quantity>1440</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>UeHBDNMaR0yHPM6LVgtQ1g</MagazineKey>
-                <MunitionKey>KUIPER/16.7mm Coilgun Slug</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>900</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>t6iX3mQepkOgkY7OgpR3zA</MagazineKey>
@@ -431,7 +432,7 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
               <MagSaveData>
                 <MagazineKey>Xpa-UmhPxUu9O_wp8Sl3gg</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>8000</Quantity>
+                <Quantity>24000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>il6q_RPUykCKRZcm_w5nxQ</MagazineKey>
@@ -453,6 +454,21 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
                 <MunitionKey>KUIPER/19mm AP Hybrid Coilgun Shell</MunitionKey>
                 <Quantity>500</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>KDUBCvvUFkeyYCbKmcnz6A</MagazineKey>
+                <MunitionKey>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</MunitionKey>
+                <Quantity>72</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>tVEo9esLekm8LmpFtFnEDw</MagazineKey>
+                <MunitionKey>KUIPER/Particle Array</MunitionKey>
+                <Quantity>1</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>nJgmn6TlV0GG7pzGNePb-g</MagazineKey>
+                <MunitionKey>KUIPER/16.7mm Coilgun Slug</MunitionKey>
+                <Quantity>2000</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -472,140 +488,11 @@ Teal Wing is [sorry, couldnt finish the description in time, my bad - metabread]
   </Ships>
   <MissileTypes>
     <MissileTemplate>
-      <SaveKey>$MODMIS$/SDM-221 Squawk</SaveKey>
-      <Designation>SDM-221</Designation>
-      <Nickname>Squawk</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
-      <LongDescription>The &lt;noparse&gt;SDM-221 Squawk&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SDM-2 body, which is a flexible defensive missile with a booster.  This missile will deliver a $MISSILEWARHEAD_DETAIL_BLASTFRAG warhead.  It homes in on its target using an Active Radar seeker  If the primary seeker does not find a target or is jammed, it can fall back on a Passive Wake seeker.
-
-$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
-
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
-$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
-
-&lt;b&gt;Boost&lt;/b&gt;
-$MISSILESTAT_SPEED: 850 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 6,198 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 1.4 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 5.0 $UNIT_GS
-
-&lt;b&gt;Main&lt;/b&gt;
-$MISSILESTAT_SPEED: 170 $UNIT_METERSPERSEC
-$MISSILESTAT_DISTANCE: 1,308 $UNIT_METERS
-$MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
-$MISSILESTAT_TURNRATE: 7.2 $UNIT_GS
-
-: Stage Trigger at 420m from Target or On Burnout
-
-$MISSILESTAT_TERMINALS: None
-
-$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
-$MISSILESTAT_ARMORDAMAGE: 0.45$UNIT_CENTIMETERS
-$MISSILESTAT_COMPONENTDAMAGE: 142.17$UNIT_HP
-$MISSILESTAT_BLASTRADIUS: 102 $UNIT_METERS
-
-$MISSILESTAT_HEALTH: 25 
-$MISSILESTAT_WALLTHICKNESS: 0.05
-$MISSILESTAT_PROGTIME: 10 $UNIT_SECONDS
-$MISSILESTAT_RADARSIG: 100 %
-$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
-$MISSILESTAT_BOOSTSTRAFE: 100 %
-$MISSILESTAT_BOOSTTURN: 100 %
-$MISSILESTAT_FAILRATE: 0 %</LongDescription>
-      <Cost>5</Cost>
-      <BodyKey>Stock/SDM-2 Body</BodyKey>
-      <TemplateKey>673b2337-d09b-454a-9bde-9aa0a322fcae</TemplateKey>
-      <BaseColor>
-        <r>0</r>
-        <g>0</g>
-        <b>0</b>
-        <a>1</a>
-      </BaseColor>
-      <StripeColor>
-        <r>0.36555922</r>
-        <g>0</g>
-        <b>0.188513964</b>
-        <a>1</a>
-      </StripeColor>
-      <Sockets>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent p2:type="PassiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
-            <Mode>Targeting</Mode>
-            <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
-            <Role>Defensive</Role>
-            <HotLaunch>false</HotLaunch>
-            <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
-            <DefensiveDoctrine>
-              <Mode>Uniform</Mode>
-              <TargetSizeMask>12</TargetSizeMask>
-              <TargetType>SmallCraft</TargetType>
-              <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
-              <ConvSalvo>0</ConvSalvo>
-              <HybridSalvo>0</HybridSalvo>
-              <CraftSalvo>0</CraftSalvo>
-              <FarthestFirst>false</FarthestFirst>
-            </DefensiveDoctrine>
-            <ApproachAngleControl>false</ApproachAngleControl>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>5</Size>
-          <InstalledComponent>
-            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>2</Size>
-          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey />
-            <BalanceValues>
-              <A>0.267011672</A>
-              <B>5.66957148E-09</B>
-              <C>0.7329883</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-        <MissileSocket>
-          <Size>1</Size>
-          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey />
-            <BalanceValues>
-              <A>1</A>
-              <B>0</B>
-              <C>0</C>
-            </BalanceValues>
-          </InstalledComponent>
-        </MissileSocket>
-      </Sockets>
-      <ModDependencies />
-    </MissileTemplate>
-    <MissileTemplate>
       <SaveKey>$MODMIS$/SGT-375 Screech</SaveKey>
       <Designation>SGT-375</Designation>
       <Nickname>Screech</Nickname>
       <Description>$MISSILEGUIDANCE_MODE_DIRECT - &lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;/$MISSILESEEKER_MODE_ARAD_HOJ_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGT-375 Screech&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Home-on-Jam seeker.
+      <LongDescription>The &lt;noparse&gt;SGT-375 Screech&lt;/noparse&gt; is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.  If the primary seeker does not find a target or is jammed, it can fall back on a Radar Home-on-Jam seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
@@ -617,7 +504,7 @@ $MISSILESTAT_SPEED: 275 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 3,339 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.8 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 1.7 $UNIT_GS
-$MISSILESTAT_TERMINALS: Weave
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_WEAVE|Weave|
 (&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
@@ -714,7 +601,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Designation>SGM-222</Designation>
       <Nickname>Cheep</Nickname>
       <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/[&lt;color=#D3D11F&gt;$MISSILESEEKER_MODE_COMMAND_ABBREV&lt;/color&gt;] - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-222 Cheep&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using command guidance from its launching ship.
+      <LongDescription>The &lt;noparse&gt;SGM-222 Cheep&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker, validating that it is the correct target using command guidance from its launching ship.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#D3D11F&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
@@ -726,7 +613,7 @@ $MISSILESTAT_SPEED: 281 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 9,877 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.6 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 3.0 $UNIT_GS
-$MISSILESTAT_TERMINALS: Weave
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_WEAVE|Weave|
 (&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
@@ -823,7 +710,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Designation>SGM-211</Designation>
       <Nickname>Chirp</Nickname>
       <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_ARAD_PULSED_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/$MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-211 Chirp&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+      <LongDescription>The &lt;noparse&gt;SGM-211 Chirp&lt;/noparse&gt; is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker.  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
@@ -835,7 +722,7 @@ $MISSILESTAT_SPEED: 281 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 9,877 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 1.6 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 3.0 $UNIT_GS
-$MISSILESTAT_TERMINALS: Weave
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_WEAVE|Weave|
 (&lt;color=#D3D11F&gt;$MISSILESTAT_TERMINALS_WARN_RANGE&lt;/color&gt;)
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
@@ -933,7 +820,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Designation>SGM-122</Designation>
       <Nickname>Dont Fire Me!</Nickname>
       <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-122 Dont Fire Me!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a $MISSILEWARHEAD_DETAIL_HEIMPACT warhead.  It homes in on its target using a Semi-Active Radar seeker.
+      <LongDescription>The &lt;noparse&gt;SGM-122 Dont Fire Me!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
 $MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
@@ -944,7 +831,7 @@ $MISSILESTAT_SPEED: 300 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 3,507 $UNIT_METERS
 $MISSILESTAT_TOPSPEEDTIME: 0.6 $UNIT_SECONDS
 $MISSILESTAT_TURNRATE: 7.7 $UNIT_GS
-$MISSILESTAT_TERMINALS: None
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
 
 $MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_HEIMPACT
 $MISSILESTAT_ARMORDAMAGE: 31$UNIT_CENTIMETERS
@@ -1018,9 +905,118 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
           <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <ComponentKey />
             <BalanceValues>
-              <A>0.33333</A>
-              <B>0.33333</B>
-              <C>0.33333</C>
+              <A>0.333333343</A>
+              <B>0.333333343</B>
+              <C>0.333333343</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+      <ModDependencies />
+    </MissileTemplate>
+    <MissileTemplate>
+      <SaveKey>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</SaveKey>
+      <Designation>SSM-121</Designation>
+      <Nickname>Squawk</Nickname>
+      <AssociatedTemplateName>SSM-11 Whirlwind</AssociatedTemplateName>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)/$MISSILESEEKER_MODE_ACTIVE_ABBREV(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_BLASTFRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SSM-1 body, which is a nimble space-superiority missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using a Passive Wake seeker.  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+
+$MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
+$MISSILESTAT_BACKUPSEEKER: $MISSILESEEKER_MODE_ACTIVE_CAPS &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+$MISSILESTAT_SPEED: 270 $UNIT_METERSPERSEC
+$MISSILESTAT_DISTANCE: 5,200 $UNIT_METERS
+$MISSILESTAT_TOPSPEEDTIME: 0.7 $UNIT_SECONDS
+$MISSILESTAT_TURNRATE: 5.1 $UNIT_GS
+$MISSILESTAT_TERMINALS: $MISSILESTAT_TERMINALS_NONE|None|
+
+$MISSILESTAT_WARHEAD: $MISSILEWARHEAD_DETAIL_BLASTFRAG
+$MISSILESTAT_ARMORDAMAGE: 0.21$UNIT_CENTIMETERS
+$MISSILESTAT_COMPONENTDAMAGE: 65.34$UNIT_HP
+$MISSILESTAT_BLASTRADIUS: 47 $UNIT_METERS
+
+$MISSILESTAT_HEALTH: 10 
+$MISSILESTAT_WALLTHICKNESS: 0.05
+$MISSILESTAT_PROGTIME: 6 $UNIT_SECONDS
+$MISSILESTAT_RADARSIG: 100 %
+$MISSILESTAT_BOOSTTIME: 3 $UNIT_SECONDS
+$MISSILESTAT_BOOSTSTRAFE: 100 %
+$MISSILESTAT_BOOSTTURN: 100 %
+$MISSILESTAT_FAILRATE: 0 %</LongDescription>
+      <Cost>1</Cost>
+      <BodyKey>Stock/SSM-1 Body</BodyKey>
+      <TemplateKey>e48e92e4-60b5-4369-9abe-31f9c7ea5fe7</TemplateKey>
+      <BaseColor>
+        <r>0.431372553</r>
+        <g>0.431372553</g>
+        <b>0.431372553</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.274509817</r>
+        <g>0.196078435</g>
+        <b>0.196078435</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="PassiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>true</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent p2:type="DirectGuidanceSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+            <Role>Defensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>None</Maneuvers>
+            <DefensiveDoctrine>
+              <Mode>Uniform</Mode>
+              <TargetSizeMask>6</TargetSizeMask>
+              <TargetType>SmallCraft</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <ConvSalvo>16843008</ConvSalvo>
+              <HybridSalvo>16843008</HybridSalvo>
+              <CraftSalvo>16843008</CraftSalvo>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+            <ApproachAngleControl>false</ApproachAngleControl>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Blast Fragmentation</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>3</Size>
+          <InstalledComponent p2:type="MissileEngineSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.133011281</A>
+              <B>0.7558155</B>
+              <C>0.111173213</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
@@ -1033,7 +1029,7 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <SaveKey>$CRAFT$/ZPH-28 Zephyr</SaveKey>
       <Nickname>Zephyr</Nickname>
       <LongDescription>$CRAFTSTAT_FRAMEMODEL: Zephyr
-$CRAFTSTAT_FRAMECLASS: Fighter
+$CRAFTSTAT_FRAMECLASS: $CRAFTFRAMECLASS_FIGHTER|Fighter|
 $CRAFTSTAT_BASECOST: 8
 $CRAFTSTAT_STORAGESIZE: 1
 $CRAFTSTAT_PADSIZE: 6 x 6
@@ -1042,7 +1038,7 @@ $CRAFTSTAT_PDTHREATSIZE: 2
 $CRAFTSTAT_HEALTH: 50 
 $CRAFTSTAT_SKIN: 1.75 $UNIT_MILLIMETERS
 $CRAFTSTAT_TARGETSIZE: 0.75 
-$CRAFTSTAT_DR: 0.5 %
+$CRAFTSTAT_DR: 50 %
 
 $CRAFTSTAT_RADARSIG: 100 %
 $CRAFTSTAT_WAKESIG: 100 %
@@ -1054,35 +1050,35 @@ $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 $CRAFTSTAT_PREFLIGHTTIME
 $CRAFTSTAT_PREFLIGHT_NOSHIPS
 
-$CRAFTSTAT_IDLESPEED: 35 $UNIT_METERSPERSEC
-$CRAFTSTAT_CRUISESPEED: 75 $UNIT_METERSPERSEC
-$CRAFTSTAT_HBRNSPEED: 113 $UNIT_METERSPERSEC
-$CRAFTSTAT_COMBATSPEED: 113 $UNIT_METERSPERSEC
+$CRAFTSTAT_IDLESPEED: 40 $UNIT_METERSPERSEC
+$CRAFTSTAT_CRUISESPEED: 80 $UNIT_METERSPERSEC
+$CRAFTSTAT_HBRNSPEED: 120 $UNIT_METERSPERSEC
+$CRAFTSTAT_COMBATSPEED: 120 $UNIT_METERSPERSEC
 
 $CRAFTSTAT_FUELCAPACITY: 2,000
-$CRAFTSTAT_LOITERTIME: 33:20
-$CRAFTSTAT_CRUISERANGE: 143 $UNIT_KILOMETERS
+$CRAFTSTAT_LOITERTIME: 22:13
+$CRAFTSTAT_CRUISERANGE: 102 $UNIT_KILOMETERS
 
-$CRAFTSTAT_THRUSTERPOWER: 150 
-$CRAFTSTAT_TURNRATE: 60 
+$CRAFTSTAT_THRUSTERPOWER: 55 
+$CRAFTSTAT_TURNRATE: 30 
 $CRAFTSTAT_OFFANGLETHRUST: 90 $UNIT_DEGREES
 $CRAFTSTAT_OFFANGLETURN: 75 $UNIT_DEGREES
 $CRAFTSTAT_FRAMEMASS: 10.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 10.00
 
-&lt;b&gt;Components:&lt;/b&gt;
-Avionics: None
-Reinforcement: None
-Countermeasures: Standard CM Launcher
-Engines: None
+&lt;b&gt;$CRAFTSTAT_COMPONENTS:&lt;/b&gt;
+$CRAFTSOCKETNAME_AVIONICS|Avionics|: $GEN_NONE
+$CRAFTSOCKETNAME_REINFORCEMENT|Reinforcement|: $GEN_NONE
+$CRAFTSOCKETNAME_COUNTERMEASURES|Countermeasures|: $CRAFTCOMPNAME_STANDARD_CM_LAUNCHER|Standard CM Launcher|
+$CRAFTSOCKETNAME_ENGINES|Engines|: $GEN_NONE
 
-&lt;b&gt;Loadouts:&lt;/b&gt;
-SDM: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-221 Squawk&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-221 Squawk&lt;/noparse&gt;
-Escort: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
-Scramble: 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
-Light Strike (Launch 2x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-222 Cheep&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-211 Chirp&lt;/noparse&gt;
-Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;, 40x &lt;noparse&gt;19mm AP Hybrid Coilgun Shell&lt;/noparse&gt;</LongDescription>
+&lt;b&gt;$CRAFTSTAT_LOADOUTS:&lt;/b&gt;
+SSM: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 2x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;
+Escort: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 2x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;
+Scramble: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|
+Light Strike (Launch 2x): 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SGM-211 Chirp&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-222 Cheep&lt;/noparse&gt;
+Cheap Strike (Launch 6x): 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 40x $AMMONAME_19MM_AP_HYBRID_COILGUN_SHELL|19mm AP Hybrid Coilgun Shell|, 1x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-121 Squawk&lt;/noparse&gt;</LongDescription>
       <Cost>8</Cost>
       <FrameKey>KUIPER/ZPH-28 Zephyr Fighter</FrameKey>
       <TemplateKey>ef1d86d9-92bc-4dc1-a3c2-c4fdd7cc56ba</TemplateKey>
@@ -1094,7 +1090,7 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
       </InstalledComponents>
       <Loadouts>
         <CraftLoadout>
-          <LoadoutName>SDM</LoadoutName>
+          <LoadoutName>SSM</LoadoutName>
           <Elements>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>nose</SocketKey>
@@ -1112,21 +1108,45 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
             <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
-              <ComponentKey>inpylon_s2l</ComponentKey>
+              <ComponentKey>inpylon_s1l</ComponentKey>
               <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardl</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SDM-221 Squawk</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutboardl</SocketKey>
+              <ComponentKey>outpylon_s1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardr</SocketKey>
-              <ComponentKey>inpylon_s2r</ComponentKey>
+              <ComponentKey>inpylon_s1r</ComponentKey>
               <Loadout p3:type="MissileSelection">
                 <SocketKey>winginboardr</SocketKey>
                 <MissileKeys>
-                  <string>$MODMIS$/SDM-221 Squawk</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutboardr</SocketKey>
+              <ComponentKey>outpylon_s1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1144,14 +1164,26 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>centerline</SocketKey>
+              <ComponentKey>centerfuel</ComponentKey>
+              <Loadout p3:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>jammer</ComponentKey>
               <Loadout p3:type="SimpleOccupiedElement" />
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>centerline</SocketKey>
-              <ComponentKey>centerfuel</ComponentKey>
-              <Loadout p3:type="SimpleOccupiedElement" />
+              <SocketKey>wingoutboardl</SocketKey>
+              <ComponentKey>outpylon_s1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                </MissileKeys>
+              </Loadout>
             </GeneralLoadoutElement>
           </Elements>
         </CraftLoadout>
@@ -1184,7 +1216,16 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
               <ComponentKey>centerfuel</ComponentKey>
               <Loadout p3:type="SimpleOccupiedElement" />
             </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutboardr</SocketKey>
+              <ComponentKey>outpylon_s2r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/SGM-211 Chirp</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>winginboardl</SocketKey>
               <ComponentKey>jammer</ComponentKey>
@@ -1197,16 +1238,6 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
                 <SocketKey>wingoutboardl</SocketKey>
                 <MissileKeys>
                   <string>$MODMIS$/SGM-222 Cheep</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>wingoutboardr</SocketKey>
-              <ComponentKey>outpylon_s2r</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>wingoutboardr</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/SGM-211 Chirp</string>
                 </MissileKeys>
               </Loadout>
             </GeneralLoadoutElement>
@@ -1237,6 +1268,26 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
               <ComponentKey>jammer</ComponentKey>
               <Loadout p3:type="SimpleOccupiedElement" />
             </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardl</SocketKey>
+              <ComponentKey>outoutpylons1l</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardl</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>wingoutoutboardr</SocketKey>
+              <ComponentKey>outoutpylons1r</ComponentKey>
+              <Loadout p3:type="MissileSelection">
+                <SocketKey>wingoutoutboardr</SocketKey>
+                <MissileKeys>
+                  <string>$MODMIS$/5JKO5LVgaUOavjH5x-pf5w</string>
+                </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
           </Elements>
         </CraftLoadout>
       </Loadouts>
@@ -1249,21 +1300,21 @@ Cheap Strike (Launch 6x): 99x &lt;noparse&gt;16.7mm Coilgun Slug&lt;/noparse&gt;
       <SaveKey>$CRAFT$/NST-62 Nyste</SaveKey>
       <Nickname>Nyste</Nickname>
       <LongDescription>$CRAFTSTAT_FRAMEMODEL: Nyste
-$CRAFTSTAT_FRAMECLASS: Bomber/Gunship
+$CRAFTSTAT_FRAMECLASS: $CRAFTFRAMECLASS_BOMBER_GUNSHIP|Bomber/Gunship|
 $CRAFTSTAT_BASECOST: 24
-$CRAFTSTAT_STORAGESIZE: 4
+$CRAFTSTAT_STORAGESIZE: 3
 $CRAFTSTAT_PADSIZE: 10 x 10
 $CRAFTSTAT_PDTHREATSIZE: 3
 
 $CRAFTSTAT_HEALTH: 200 
-$CRAFTSTAT_SKIN: 10 $UNIT_MILLIMETERS
+$CRAFTSTAT_SKIN: 3 $UNIT_MILLIMETERS
 $CRAFTSTAT_TARGETSIZE: 1 
-$CRAFTSTAT_DR: 0.5 %
+$CRAFTSTAT_DR: 75 %
 
 $CRAFTSTAT_RADARSIG: 100 %
 $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
-$CRAFTSTAT_CMDCAPACITY: -1 
+$CRAFTSTAT_CMDCAPACITY: $UI_SKIRMISH_CIB_SALVO_UNLIMITED
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
@@ -1275,29 +1326,30 @@ $CRAFTSTAT_CRUISESPEED: 60 $UNIT_METERSPERSEC
 $CRAFTSTAT_HBRNSPEED: 90 $UNIT_METERSPERSEC
 $CRAFTSTAT_COMBATSPEED: 90 $UNIT_METERSPERSEC
 
-$CRAFTSTAT_FUELCAPACITY: 2,700
-$CRAFTSTAT_LOITERTIME: 30:00
-$CRAFTSTAT_CRUISERANGE: 81 $UNIT_KILOMETERS
+$CRAFTSTAT_FUELCAPACITY: 1,700
+$CRAFTSTAT_LOITERTIME: 19:53
+$CRAFTSTAT_CRUISERANGE: 51 $UNIT_KILOMETERS
 
 $CRAFTSTAT_THRUSTERPOWER: 200 
-$CRAFTSTAT_TURNRATE: 45 
+$CRAFTSTAT_TURNRATE: 25 
 $CRAFTSTAT_OFFANGLETHRUST: 90 $UNIT_DEGREES
-$CRAFTSTAT_OFFANGLETURN: 25 $UNIT_DEGREES
+$CRAFTSTAT_OFFANGLETURN: 45 $UNIT_DEGREES
 $CRAFTSTAT_FRAMEMASS: 25.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 25.00
 
-&lt;b&gt;Components:&lt;/b&gt;
-Fuselage: None
-Engines: None
-Support: Missile Decoy Projector
-Countermeasures: High-Coherence CM Launcher
+&lt;b&gt;$CRAFTSTAT_COMPONENTS:&lt;/b&gt;
+$CRAFTSOCKETNAME_FUSELAGE|Fuselage|: $GEN_NONE
+$CRAFTSOCKETNAME_ENGINES|Engines|: $GEN_NONE
+$CRAFTSOCKETNAME_SUPPORT|Support|: $CRAFTCOMPNAME_MISSILE_DECOY_PROJECTOR|Missile Decoy Projector|
+$CRAFTSOCKETNAME_COUNTERMEASURES|Countermeasures|: $CRAFTCOMPNAME_HIGH_COHERENCE_CM_LAUNCHER|High-Coherence CM Launcher|
 
-&lt;b&gt;Loadouts:&lt;/b&gt;
-4x Torp + 70mm Anti-Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;, 2x &lt;noparse&gt;SGT-375 Screech&lt;/noparse&gt;, 2x &lt;noparse&gt;SGT-375 Screech&lt;/noparse&gt;
-Heavy Attack: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;
-Light Strike: 160x &lt;noparse&gt;105mm HVAP Shell&lt;/noparse&gt;
-LR Anti Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;</LongDescription>
+&lt;b&gt;$CRAFTSTAT_LOADOUTS:&lt;/b&gt;
+4x Torp + 70mm Anti-Heavy: 2x &lt;noparse&gt;SGT-375 Screech&lt;/noparse&gt;, 25x $AMMONAME_70MM_AP_SLUG|70mm AP Slug|, 2x &lt;noparse&gt;SGT-375 Screech&lt;/noparse&gt;
+Heavy Attack: 25x $AMMONAME_70MM_AP_SLUG|70mm AP Slug|
+Light Strike: 60x $AMMONAME_105MM_HVAP_SHELL|105mm HVAP Shell|
+LR Heavy Attack: 25x $AMMONAME_70MM_AP_SLUG|70mm AP Slug|
+LR Beam (Difficult Usage): 1x $AMMONAME_PARTICLE_ARRAY|Particle Array|</LongDescription>
       <Cost>42</Cost>
       <FrameKey>KUIPER/NST-62 Nyste Bomber</FrameKey>
       <TemplateKey>c6196782-fa32-4f24-aa13-ea444144d1cd</TemplateKey>
@@ -1315,16 +1367,6 @@ LR Anti Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;</LongDescription>
         <CraftLoadout>
           <LoadoutName>4x Torp + 70mm Anti-Heavy</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>main</SocketKey>
-              <ComponentKey>nyste70mm</ComponentKey>
-              <Loadout p3:type="SimpleAmmoSelection">
-                <SocketKey>main</SocketKey>
-                <AmmoKey>KUIPER/70mm Coilgun Slug</AmmoKey>
-              </Loadout>
-            </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>l</SocketKey>
               <ComponentKey>nysterls3l</ComponentKey>
@@ -1334,6 +1376,14 @@ LR Anti Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;</LongDescription>
                   <string>$MODMIS$/SGT-375 Screech</string>
                   <string>$MODMIS$/SGT-375 Screech</string>
                 </MissileKeys>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>main</SocketKey>
+              <ComponentKey>nyste70mm</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>main</SocketKey>
+                <AmmoKey>KUIPER/70mm Coilgun Slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
@@ -1376,7 +1426,7 @@ LR Anti Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;</LongDescription>
           </Elements>
         </CraftLoadout>
         <CraftLoadout>
-          <LoadoutName>LR Anti Heavy</LoadoutName>
+          <LoadoutName>LR Heavy Attack</LoadoutName>
           <Elements>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>main</SocketKey>
@@ -1384,6 +1434,26 @@ LR Anti Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;</LongDescription>
               <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>main</SocketKey>
                 <AmmoKey>KUIPER/70mm Coilgun Slug</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>r</SocketKey>
+              <ComponentKey>nystefuelr</ComponentKey>
+              <Loadout p3:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>LR Beam (Difficult Usage)</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>main</SocketKey>
+              <ComponentKey>nystebeam</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>main</SocketKey>
+                <AmmoKey>KUIPER/Particle Array</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
@@ -1403,23 +1473,26 @@ LR Anti Heavy: 64x &lt;noparse&gt;70mm AP Slug&lt;/noparse&gt;</LongDescription>
       <SaveKey>$CRAFT$/AVL-43 Avalon</SaveKey>
       <Nickname>Avalon</Nickname>
       <LongDescription>$CRAFTSTAT_FRAMEMODEL: Avalon
-$CRAFTSTAT_FRAMECLASS: Gunship
-$CRAFTSTAT_BASECOST: 24
-$CRAFTSTAT_STORAGESIZE: 4
+$CRAFTSTAT_FRAMECLASS: $CRAFTFRAMECLASS_GUNSHIP|Gunship|
+$CRAFTSTAT_BASECOST: 35
+$CRAFTSTAT_STORAGESIZE: 3
 $CRAFTSTAT_PADSIZE: 10 x 10
 $CRAFTSTAT_PDTHREATSIZE: 3
 
 $CRAFTSTAT_HEALTH: 200 
-$CRAFTSTAT_SKIN: 10 $UNIT_MILLIMETERS
+$CRAFTSTAT_SKIN: 2 $UNIT_MILLIMETERS
 $CRAFTSTAT_TARGETSIZE: 1 
-$CRAFTSTAT_DR: 0.75 %
+$CRAFTSTAT_DR: 75 %
 
 $CRAFTSTAT_RADARSIG: 100 %
 $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
-$CRAFTSTAT_CMDCAPACITY: -1 
+$CRAFTSTAT_CMDCAPACITY: $UI_SKIRMISH_CIB_SALVO_UNLIMITED
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
+
+$CRAFTSTAT_PREFLIGHTTIME
+$CRAFTSTAT_PREFLIGHT_NOSHIPS
 
 $CRAFTSTAT_IDLESPEED: 30 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 50 $UNIT_METERSPERSEC
@@ -1431,25 +1504,25 @@ $CRAFTSTAT_LOITERTIME: 42:40
 $CRAFTSTAT_CRUISERANGE: 50 $UNIT_KILOMETERS
 
 $CRAFTSTAT_THRUSTERPOWER: 250 
-$CRAFTSTAT_TURNRATE: 45 
+$CRAFTSTAT_TURNRATE: 25 
 $CRAFTSTAT_FRAMEMASS: 25.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 25.00
 
-&lt;b&gt;Components:&lt;/b&gt;
-Upper Gun: 15mm PDT
-Lower Gun: 15mm PDT
-Fuselage: None
-Engines: None
-Countermeasures: High-Capacity CM Launcher
+&lt;b&gt;$CRAFTSTAT_COMPONENTS:&lt;/b&gt;
+$CRAFTSOCKETNAME_UPPER_GUN|Upper Gun|: $CRAFTCOMPNAME_15MM_PDT|15mm PDT|
+$CRAFTSOCKETNAME_LOWER_GUN|Lower Gun|: $CRAFTCOMPNAME_15MM_PDT|15mm PDT|
+$CRAFTSOCKETNAME_FUSELAGE|Fuselage|: $GEN_NONE
+$CRAFTSOCKETNAME_COUNTERMEASURES|Countermeasures|: $CRAFTCOMPNAME_HIGH_CAPACITY_CM_LAUNCHER|High Capacity CM Launcher|
 
-&lt;b&gt;Loadouts:&lt;/b&gt;
-Anti Air: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm RPF Shell&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm RPF Shell&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm RPF Shell&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm RPF Shell&lt;/noparse&gt;
-(Bad) Light Strike: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm AP Coilgun Slug&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm AP Coilgun Slug&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm AP Coilgun Slug&lt;/noparse&gt;, 100x &lt;noparse&gt;20mm AP Coilgun Slug&lt;/noparse&gt;
-SEWAC: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;
-CMD/RADAR Jamming: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;
-EO Designate + Radar Jam: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;, 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt;</LongDescription>
-      <Cost>73</Cost>
+&lt;b&gt;$CRAFTSTAT_LOADOUTS:&lt;/b&gt;
+Anti Air: 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|
+(Bad) Light Strike: 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 100x $AMMONAME_20MM_AP_COILGUN_SLUG|20mm AP Coilgun Slug|, 100x $AMMONAME_20MM_AP_COILGUN_SLUG|20mm AP Coilgun Slug|, 100x $AMMONAME_20MM_AP_COILGUN_SLUG|20mm AP Coilgun Slug|, 100x $AMMONAME_20MM_AP_COILGUN_SLUG|20mm AP Coilgun Slug|
+SEWAC: 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|
+CMD/RADAR Jamming: 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|
+EO Designate + Radar Jam: 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|
+RPF: 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 1,999x $AMMONAME_15MM_COILGUN_SLUG|15mm Coilgun Slug|, 100x $AMMONAME_20MM_RPF_SHELL|20mm RPF Shell|, 100x $AMMONAME_20MM_RPF_SHELL|20mm RPF Shell|, 100x $AMMONAME_20MM_RPF_SHELL|20mm RPF Shell|, 100x $AMMONAME_20MM_RPF_SHELL|20mm RPF Shell|</LongDescription>
+      <Cost>89</Cost>
       <FrameKey>KUIPER/AVL-43 Avalon Gunship</FrameKey>
       <TemplateKey>a0fb00c0-4056-4f47-8379-43f81f248428</TemplateKey>
       <InstalledComponents>
@@ -1478,36 +1551,37 @@ EO Designate + Radar Jam: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt
               <SocketKey>lg</SocketKey>
               <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
             </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>fr</SocketKey>
-              <ComponentKey>t10fr</ComponentKey>
+              <ComponentKey>15mm_fr</ComponentKey>
               <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>fr</SocketKey>
-                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+                <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>fl</SocketKey>
-              <ComponentKey>t10fl</ComponentKey>
+              <ComponentKey>15mm_fl</ComponentKey>
               <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>fl</SocketKey>
-                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+                <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>br</SocketKey>
-              <ComponentKey>t10br</ComponentKey>
+              <ComponentKey>15mm_rr</ComponentKey>
               <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>br</SocketKey>
-                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+                <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>bl</SocketKey>
-              <ComponentKey>t10bl</ComponentKey>
+              <ComponentKey>15mm_rl</ComponentKey>
               <Loadout p3:type="SimpleAmmoSelection">
                 <SocketKey>bl</SocketKey>
-                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+                <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
           </Elements>
@@ -1618,6 +1692,52 @@ EO Designate + Radar Jam: 1,999x &lt;noparse&gt;15mm Coilgun slug&lt;/noparse&gt
               <SocketKey>br</SocketKey>
               <ComponentKey>jammer_r</ComponentKey>
               <Loadout p3:type="SimpleOccupiedElement" />
+            </GeneralLoadoutElement>
+          </Elements>
+        </CraftLoadout>
+        <CraftLoadout>
+          <LoadoutName>RPF</LoadoutName>
+          <Elements>
+            <GeneralLoadoutElement p3:type="SimpleAmmoSelection" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>ug</SocketKey>
+              <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleAmmoSelection" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>lg</SocketKey>
+              <AmmoKey>KUIPER/15mm Coilgun slug</AmmoKey>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>fr</SocketKey>
+              <ComponentKey>t10fr</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>fr</SocketKey>
+                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>fl</SocketKey>
+              <ComponentKey>t10fl</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>fl</SocketKey>
+                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>br</SocketKey>
+              <ComponentKey>t10br</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>br</SocketKey>
+                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+              </Loadout>
+            </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
+              <SocketKey>bl</SocketKey>
+              <ComponentKey>t10bl</ComponentKey>
+              <Loadout p3:type="SimpleAmmoSelection">
+                <SocketKey>bl</SocketKey>
+                <AmmoKey>KUIPER/20mm Airburst Coilgun Shell</AmmoKey>
+              </Loadout>
             </GeneralLoadoutElement>
           </Elements>
         </CraftLoadout>
