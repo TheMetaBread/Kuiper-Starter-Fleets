@@ -16,12 +16,11 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
     <Ship>
       <Key>0ae07a16-88db-4d63-a707-d9bbbdff4e04</Key>
       <Name>Order in Turbulence</Name>
-      <Cost>2688</Cost>
+      <Cost>2788</Cost>
       <Callsign />
       <Number>1431</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Altea Class Battleship</HullType>
-      <ModDependencies />
       <SocketMap>
         <HullSocket>
           <Key>c5_1</Key>
@@ -137,7 +136,7 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>lc_1</Key>
-          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_2</Key>
@@ -147,12 +146,12 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
               <MagSaveData>
                 <MagazineKey>4xvX1pG0gE2hx35gjSWrPA</MagazineKey>
                 <MunitionKey>KUIPER/100mm Coilgun AP Slug</MunitionKey>
-                <Quantity>210</Quantity>
+                <Quantity>420</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>kTgGwMrdU0iNaMAPNTmPBA</MagazineKey>
                 <MunitionKey>KUIPER/100mm Coilgun Fragmentation Slug</MunitionKey>
-                <Quantity>420</Quantity>
+                <Quantity>595</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>QMrpDMDk-0u1rcFjhqICzw</MagazineKey>
@@ -162,7 +161,7 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
               <MagSaveData>
                 <MagazineKey>6ixffk58r06w60UOczhu7A</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>1350</Quantity>
+                <Quantity>1275</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>nqzTN5D8CkysWV6q-gl1QQ</MagazineKey>
@@ -188,7 +187,7 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>lc_4</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_5</Key>
@@ -228,11 +227,11 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>mc_5</Key>
-          <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
+          <ComponentName>Stock/Damage Control Central</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_6</Key>
-          <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RM_1</Key>
@@ -284,7 +283,6 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
       <Number>458</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>KUIPER/Kyve Class Corvette</HullType>
-      <ModDependencies />
       <SocketMap>
         <HullSocket>
           <Key>c2_1</Key>
@@ -355,18 +353,8 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
-      <InitialFormation>
-        <GuideKey>0ae07a16-88db-4d63-a707-d9bbbdff4e04</GuideKey>
-        <RelativePosition>
-          <x>24.5745125</x>
-          <y>0</y>
-          <z>-26.2643547</z>
-        </RelativePosition>
-      </InitialFormation>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
   </Ships>
-  <MissileTypes />
-  <CraftTypes />
 </Fleet>
