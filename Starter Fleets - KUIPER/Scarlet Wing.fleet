@@ -86,14 +86,14 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
               <MagSaveData>
                 <MagazineKey>OQfZjPS_n0qm2t9xC080UA</MagazineKey>
                 <MunitionKey>Stock/EA14 Chaff Decoy</MunitionKey>
-                <Quantity>18</Quantity>
+                <Quantity>19</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>c1_bottom</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -198,12 +198,12 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
               <MagSaveData>
                 <MagazineKey>gGDn8mMiikOQIEeh0A_e5g</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1500</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Sp9f2cuO5EKESqmopy6LaA</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>2500</Quantity>
+                <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Ibd8nLTGL0W8Fd0csPzn3A</MagazineKey>
