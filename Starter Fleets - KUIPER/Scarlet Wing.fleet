@@ -40,11 +40,11 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
@@ -56,11 +56,11 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>c1_1</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_2</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_3</Key>
@@ -93,7 +93,7 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>c1_bottom</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -165,11 +165,11 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>lc_3</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_4</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_5</Key>
@@ -215,11 +215,11 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>lc_7</Key>
-          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_8</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_9</Key>
@@ -227,7 +227,7 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -272,11 +272,6 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
             <string>c5_1</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="Front Bottom">
-          <MemberKeys>
-            <string>c4_1</string>
-          </MemberKeys>
-        </WepGroup>
         <WepGroup Name="Rear Top">
           <MemberKeys>
             <string>c5_2</string>
@@ -289,10 +284,13 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </WepGroup>
         <WepGroup Name="Castle">
           <MemberKeys>
-            <string>c1_1</string>
-            <string>c1_2</string>
             <string>c1_3</string>
             <string>c1_4</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="Front Bottom">
+          <MemberKeys>
+            <string>c4_1</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -377,4 +375,3 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
     </Ship>
   </Ships>
 </Fleet>
-
