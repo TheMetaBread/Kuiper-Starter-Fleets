@@ -15,7 +15,7 @@ Notes:
 -The castles present on the Kyves and Vesperas are dual-in-role. Providing long range defense against craft and missiles along with softening lighter assets.
 -Though the damage of castles is good into light assets they are incapable of breaking reinforced modules. Utilize the 50mm Magnums to secure kills.
  </Description>
-  <SortOverrideOrder>5</SortOverrideOrder>
+  <SortOverrideOrder>4</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
@@ -59,11 +59,11 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>c1_top_aft</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bot_fore</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bot_aft</Key>
@@ -80,7 +80,7 @@ Notes:
                 <Quantity>12</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>xpbfafdzDk68FcZZ2uhF_g</MagazineKey>
+                <MagazineKey>_RAuAuadVkCBCgZExRULUg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -104,7 +104,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>x0vo1QNeV0uKlggRkOf-Zw</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>5sCM3BYIMkatiZ2XVo6Dvg</MagazineKey>
@@ -112,19 +112,14 @@ Notes:
                 <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>uU-GOWO0_0WFHsCE8JrRvg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>2000</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>ZJNkf76st0iMBGanOdfQmg</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
                 <Quantity>6000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>lMb7cenRnUmc3_QDbgnx7A</MagazineKey>
-                <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>2000</Quantity>
+                <MagazineKey>KwxNS83HjUaqpr26te5Sew</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>525</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -193,13 +188,15 @@ Notes:
             <string>c3_6</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="Castles">
-          <MemberKeys>
-            <string>c1_bot_fore</string>
-            <string>c1_top_aft</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
+      <InitialFormation>
+        <GuideKey>2382b490-4227-4216-8e90-4449e9542db7</GuideKey>
+        <RelativePosition>
+          <x>0.6301651</x>
+          <y>13.1903362</y>
+          <z>26.9175549</z>
+        </RelativePosition>
+      </InitialFormation>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
@@ -242,11 +239,11 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>c1_top_aft</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bot_fore</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_bot_aft</Key>
@@ -263,7 +260,7 @@ Notes:
                 <Quantity>12</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>xpbfafdzDk68FcZZ2uhF_g</MagazineKey>
+                <MagazineKey>_RAuAuadVkCBCgZExRULUg</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -287,7 +284,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>x0vo1QNeV0uKlggRkOf-Zw</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>5sCM3BYIMkatiZ2XVo6Dvg</MagazineKey>
@@ -295,19 +292,14 @@ Notes:
                 <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>uU-GOWO0_0WFHsCE8JrRvg</MagazineKey>
-                <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>2000</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>ZJNkf76st0iMBGanOdfQmg</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
                 <Quantity>6000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>lMb7cenRnUmc3_QDbgnx7A</MagazineKey>
-                <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>2000</Quantity>
+                <MagazineKey>KwxNS83HjUaqpr26te5Sew</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>525</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -376,19 +368,13 @@ Notes:
             <string>c3_6</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="Castles">
-          <MemberKeys>
-            <string>c1_bot_fore</string>
-            <string>c1_top_aft</string>
-          </MemberKeys>
-        </WepGroup>
       </WeaponGroups>
       <InitialFormation>
-        <GuideKey>6e0b1e46-63a4-4bbd-a23f-77f637ee4316</GuideKey>
+        <GuideKey>2382b490-4227-4216-8e90-4449e9542db7</GuideKey>
         <RelativePosition>
-          <x>-0.5523834</x>
-          <y>13.9145317</y>
-          <z>-38.78576</z>
+          <x>0.102630615</x>
+          <y>32.92664</y>
+          <z>-19.3857059</z>
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
@@ -454,24 +440,25 @@ Notes:
       </SocketMap>
       <WeaponGroups>
         <WepGroup Name="JAM L">
-          <MemberKeys>
-            <string>c2_1</string>
-          </MemberKeys>
+          <MemberKeys />
         </WepGroup>
         <WepGroup Name="JAM R">
+          <MemberKeys />
+        </WepGroup>
+        <WepGroup Name="JAM - R">
+          <MemberKeys />
+        </WepGroup>
+        <WepGroup Name="JAM - RIGHT">
           <MemberKeys>
             <string>c2_2</string>
           </MemberKeys>
         </WepGroup>
+        <WepGroup Name="JAM - LEFT">
+          <MemberKeys>
+            <string>c2_1</string>
+          </MemberKeys>
+        </WepGroup>
       </WeaponGroups>
-      <InitialFormation>
-        <GuideKey>6e0b1e46-63a4-4bbd-a23f-77f637ee4316</GuideKey>
-        <RelativePosition>
-          <x>2.58896637</x>
-          <y>-14.2211246</y>
-          <z>-30.920433</z>
-        </RelativePosition>
-      </InitialFormation>
       <TemplateMissileTypes />
       <TemplateSpacecraftTypes />
     </Ship>
@@ -495,7 +482,7 @@ Notes:
                 <Quantity>8</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>pcqAhuQcek-TyFH-i4nyvw</MagazineKey>
+                <MagazineKey>QkOrUELfKEqJuVZ_Wxv_5Q</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -608,7 +595,7 @@ Notes:
                 <Quantity>7</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>pcqAhuQcek-TyFH-i4nyvw</MagazineKey>
+                <MagazineKey>QkOrUELfKEqJuVZ_Wxv_5Q</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -721,7 +708,7 @@ Notes:
                 <Quantity>7</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>pcqAhuQcek-TyFH-i4nyvw</MagazineKey>
+                <MagazineKey>QkOrUELfKEqJuVZ_Wxv_5Q</MagazineKey>
                 <MunitionKey>$MODMIS$/SGM-122 Dont Shoot Me!</MunitionKey>
                 <Quantity>1</Quantity>
               </MagSaveData>
@@ -820,13 +807,14 @@ Notes:
       <SaveKey>$MODMIS$/SGM-122 Dont Shoot Me!</SaveKey>
       <Designation>SGM-100</Designation>
       <Nickname>Ceremonial Arming Missile - Dont Shoot!</Nickname>
-      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_SEMIACTIVE_ABBREV(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
-      <LongDescription>The &lt;noparse&gt;SGM-100 Ceremonial Arming Missile - Dont Shoot!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
+      <AssociatedTemplateName>SGM-100 Ceremonial Arming Missile - Dont Shoot!</AssociatedTemplateName>
+      <Description>$MISSILEGUIDANCE_MODE_DIRECT - $MISSILESEEKER_MODE_PASSIVE_ABBREV(&lt;color=#D4211D&gt;WAKE&lt;/color&gt;) - $MISSILEWARHEAD_SHORT_HEIMPACT</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-100 Ceremonial Arming Missile - Dont Shoot!&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Passive Wake seeker.
 
 $MISSILESTAT_CONTROLMETHOD: $MISSILEGUIDANCE_MODE_DIRECT
-$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#4CFF72&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
+$MISSILESTAT_TARGETINGMODE: &lt;b&gt;&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_POS&lt;/color&gt;	&lt;color=#3BC81E&gt;$MISSILESTAT_TARGETINGMODE_TRACK&lt;/color&gt;&lt;/b&gt;
 
-$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_SEMIACTIVE_CAPS &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+$MISSILESTAT_PRIMARYSEEKER: $MISSILESEEKER_MODE_PASSIVE_CAPS (&lt;color=#D4211D&gt;WAKE&lt;/color&gt;)
 
 $MISSILESTAT_SPEED: 300 $UNIT_METERSPERSEC
 $MISSILESTAT_DISTANCE: 3,507 $UNIT_METERS
@@ -866,8 +854,8 @@ $MISSILESTAT_FAILRATE: 0 %</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent p2:type="ActiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
+          <InstalledComponent p2:type="PassiveSeekerSettings" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <ComponentKey>Stock/Wake-Homing Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
             <DetectPDTargets>false</DetectPDTargets>
