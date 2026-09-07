@@ -4,7 +4,7 @@
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>KUIPER/kuiper</FactionKey>
-  <Description>Difficulty: &lt;color=yellow&gt;MODERATE&lt;/color&gt;
+  <Description>Difficulty: &lt;color=red&gt;HARD&lt;/color&gt;
 
 Green Wing is a wing centered around Ambush Tactics, Map Denial, and Point Capture.
 Composed of 3 Particle Lance Destroyers, and six skirmishing corvettes equipped with castle turrets to contest other small ships. There is one expendable corvette designed for driving onto commonly contested capture points to secure an early advantage, generally the 'A' capture point.
@@ -15,7 +15,7 @@ The Kyve Corvettes are designed to quickly dart onto caps and evade enemy fire, 
 
 The "They Deserved Worse" will generally deploy a Point Defense cubesat before entering the 'A' capture point. If it survives, return it to a safe spot for later use in other dangerous capture attempts, to minimise losses.
   </Description>
-  <SortOverrideOrder>6</SortOverrideOrder>
+  <SortOverrideOrder>7</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
