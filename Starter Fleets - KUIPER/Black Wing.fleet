@@ -14,7 +14,7 @@ Notes:
 -While the beams excel at up-front damage, care must be taken. Unlike the MK600 beam, the Particle Lance is unable to BSHORT and though the damage is significant, it is finite and the beam ships are fragile. Utilize jamming to deal with larger ships and plan ambushes carefully.
 -It is suggested to operate the destroyers in Radar Off and Comms Recieve Only, relying on the spotters to pass tracks to the destroyers which can subsequently lock even with the search of their radars off. This is done to reduce the detectability of the destroyers to long-range radar that would otherwise ruin an ambush.
   </Description>
-  <SortOverrideOrder>7</SortOverrideOrder>
+  <SortOverrideOrder>5</SortOverrideOrder>
   <ModDependencies>
     <unsignedLong>3649434947</unsignedLong>
   </ModDependencies>
