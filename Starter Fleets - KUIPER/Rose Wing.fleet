@@ -40,18 +40,14 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_1</Key>
-          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>c1_2</Key>
           <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
@@ -64,7 +60,7 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>c1_6</Key>
-          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c1_top</Key>
@@ -146,22 +142,22 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
               <MagSaveData>
                 <MagazineKey>4xvX1pG0gE2hx35gjSWrPA</MagazineKey>
                 <MunitionKey>KUIPER/100mm Coilgun AP Slug</MunitionKey>
-                <Quantity>420</Quantity>
+                <Quantity>490</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>kTgGwMrdU0iNaMAPNTmPBA</MagazineKey>
                 <MunitionKey>KUIPER/100mm Coilgun Fragmentation Slug</MunitionKey>
-                <Quantity>595</Quantity>
+                <Quantity>490</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>QMrpDMDk-0u1rcFjhqICzw</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>20000</Quantity>
+                <Quantity>16000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6ixffk58r06w60UOczhu7A</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>1275</Quantity>
+                <Quantity>1125</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>nqzTN5D8CkysWV6q-gl1QQ</MagazineKey>
