@@ -185,11 +185,6 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
                 <MunitionKey>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</MunitionKey>
                 <Quantity>96</Quantity>
               </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>HvChaYgPXUKc0F2a3ryZsg</MagazineKey>
-                <MunitionKey>Stock/S1 Glide Bomb</MunitionKey>
-                <Quantity>24</Quantity>
-              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -1405,6 +1400,9 @@ $CRAFTSTAT_CMDCAPACITY: 2  (&lt;link="craft-missile-cmdcapacity"&gt;&lt;color=#4
 $CRAFTSTAT_MISSILEANGLE: 120 $UNIT_DEGREES (&lt;link="craft-missile-ontargetangle"&gt;&lt;color=#4CFF72&gt;+400%&lt;/color&gt;&lt;/link&gt;)
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
+$CRAFTSTAT_PREFLIGHTTIME
+$CRAFTSTAT_PREFLIGHT_NOSHIPS
+
 $CRAFTSTAT_IDLESPEED: 40 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 120 $UNIT_METERSPERSEC
 $CRAFTSTAT_HBRNSPEED: 180 $UNIT_METERSPERSEC
@@ -1421,21 +1419,19 @@ $CRAFTSTAT_OFFANGLETURN: 75 $UNIT_DEGREES
 $CRAFTSTAT_FRAMEMASS: 10.00
 $CRAFTSTAT_LOADOUTMASS: -
 $CRAFTSTAT_TOTALMASS: 10.00
-Thrust-to-Weight: 4.13
 
 &lt;b&gt;$CRAFTSTAT_COMPONENTS:&lt;/b&gt;
 $CRAFTSOCKETNAME_AVIONICS|Avionics|: $CRAFTCOMPNAME_MISSILE_CONTROL_GUIDANCE_SUITE|Missile Control Guidance Suite|
 $CRAFTSOCKETNAME_REINFORCEMENT|Reinforcement|: $GEN_NONE
-$CRAFTSOCKETNAME_COUNTERMEASURES|Countermeasures|: $CRAFTCOMPNAME_STANDARD_CM_LAUNCHER|Standard CM Launcher|
+$CRAFTSOCKETNAME_COUNTERMEASURES|Countermeasures|: $CRAFTCOMPNAME_HIGH_COHERENCE_CM_LAUNCHER|High-Coherence CM Launcher|
 $CRAFTSOCKETNAME_ENGINES|Engines|: $GEN_NONE
 
 &lt;b&gt;$CRAFTSTAT_LOADOUTS:&lt;/b&gt;
 Air to Air: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-177 Axiom&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SDM-177 Axiom&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
 Multi Role: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-239 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-239 Derivative&lt;/noparse&gt;, 2x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
 Strike: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 1x &lt;noparse&gt;SGM-239 Derivative&lt;/noparse&gt;, 40x $AMMONAME_19MM_AP_HYBRID_COILGUN_SHELL|19mm AP Hybrid Coilgun Shell|, 1x &lt;noparse&gt;SGM-239 Derivative&lt;/noparse&gt;, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
-Finisher: 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;, 2x $AMMONAME_KBU_15_BOMB|KBU-15 Bomb|, 40x $AMMONAME_19MM_AP_HYBRID_COILGUN_SHELL|19mm AP Hybrid Coilgun Shell|, 2x $AMMONAME_KBU_15_BOMB|KBU-15 Bomb|, 1x &lt;noparse&gt;SSM-152 Consequence&lt;/noparse&gt;
 guns: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 40x $AMMONAME_19MM_AP_HYBRID_COILGUN_SHELL|19mm AP Hybrid Coilgun Shell|</LongDescription>
-      <Cost>13</Cost>
+      <Cost>15</Cost>
       <FrameKey>KUIPER/ZPH-28 Zephyr Fighter</FrameKey>
       <TemplateKey>e69ca0e7-0d11-47e6-b371-26d907e7fd41</TemplateKey>
       <InstalledComponents>
@@ -1445,7 +1441,7 @@ guns: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 40x $AMMONAME_19MM
         </SerializedCraftSocket>
         <SerializedCraftSocket>
           <SocketKey>countermeasures</SocketKey>
-          <ComponentKey>cml-standard</ComponentKey>
+          <ComponentKey>cml-hico</ComponentKey>
         </SerializedCraftSocket>
       </InstalledComponents>
       <Loadouts>
@@ -1668,61 +1664,6 @@ guns: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 40x $AMMONAME_19MM
           </Elements>
         </CraftLoadout>
         <CraftLoadout>
-          <LoadoutName>Finisher</LoadoutName>
-          <Elements>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>wingoutoutboardr</SocketKey>
-              <ComponentKey>outoutpylons1r</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>wingoutoutboardr</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>winginboardr</SocketKey>
-              <ComponentKey>inpylon_s1r</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>winginboardr</SocketKey>
-                <MissileKeys>
-                  <string>Stock/S1 Glide Bomb</string>
-                  <string>Stock/S1 Glide Bomb</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>centerline</SocketKey>
-              <ComponentKey>centergun</ComponentKey>
-              <Loadout p3:type="SimpleAmmoSelection">
-                <SocketKey>centerline</SocketKey>
-                <AmmoKey>KUIPER/19mm AP Hybrid Coilgun Shell</AmmoKey>
-              </Loadout>
-            </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>winginboardl</SocketKey>
-              <ComponentKey>inpylon_s1l</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>winginboardl</SocketKey>
-                <MissileKeys>
-                  <string>Stock/S1 Glide Bomb</string>
-                  <string>Stock/S1 Glide Bomb</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
-            <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
-              <SocketKey>wingoutoutboardl</SocketKey>
-              <ComponentKey>outoutpylons1l</ComponentKey>
-              <Loadout p3:type="MissileSelection">
-                <SocketKey>wingoutoutboardl</SocketKey>
-                <MissileKeys>
-                  <string>$MODMIS$/sRUt4e03DUygBUuhpTBBRg</string>
-                </MissileKeys>
-              </Loadout>
-            </GeneralLoadoutElement>
-          </Elements>
-        </CraftLoadout>
-        <CraftLoadout>
           <LoadoutName>guns</LoadoutName>
           <Elements>
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
@@ -1741,12 +1682,14 @@ guns: 99x $AMMONAME_16_7MM_COILGUN_SLUG|16.7mm Coilgun Slug|, 40x $AMMONAME_19MM
                 <AmmoKey>KUIPER/19mm AP Hybrid Coilgun Shell</AmmoKey>
               </Loadout>
             </GeneralLoadoutElement>
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
+            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
           </Elements>
         </CraftLoadout>
       </Loadouts>
       <TemplateMissileTypes />
       <ModDependencies>
-        <unsignedLong>3649431276</unsignedLong>
+        <unsignedLong>3799359812</unsignedLong>
       </ModDependencies>
     </CraftTemplate>
   </CraftTypes>
