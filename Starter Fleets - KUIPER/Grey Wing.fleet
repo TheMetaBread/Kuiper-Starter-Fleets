@@ -138,17 +138,17 @@ Grey Wing "Warden" is an objective focused wing. The center piece of the wing is
               <MagSaveData>
                 <MagazineKey>dEDT0qxy3kixOhLCn6oCWg</MagazineKey>
                 <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>DPipm0ggMEON23ItN4OAoQ</MagazineKey>
                 <MunitionKey>KUIPER/50mm Fragmentation Slug</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>600</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>KS5f2DT7t0Stcp4p-EwktA</MagazineKey>
                 <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>300</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>srHloKAE0Uq5GKU2N_HV9A</MagazineKey>
