@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Black Wing</Name>
   <Version>3</Version>
@@ -7,7 +7,7 @@
   <Description>Difficulty: &lt;color=yellow&gt;MODERATE&lt;/color&gt;
 
 Black Wing "Silencers" is a wing centered around Ambush Tactics, Map Control, and Reconnaissance.
-Composed of a four Particle Lance destroyers, and two long-range spotter corvettes.
+Composed of four Particle Lance destroyers, and two long-range spotter corvettes equipped with pulse generators.
 Operating in the shadows, the goal of the fleet is to lock down and control as wide a region of space as possible with distributed forces. Punishing movement with swift ambush from a net of cross-firing beams. Leverage intelligence to make informed decisions, pre-aim ambushes, and remain detected as little as possible; creeping up on an enemy battle-line and preying on any exposed assets.
 
 Notes:
@@ -22,7 +22,7 @@ Notes:
     <Ship>
       <Key>53e8b3d9-8152-4891-a7ad-7594d131a5a2</Key>
       <Name>Wings Of Fate</Name>
-      <Cost>150</Cost>
+      <Cost>153</Cost>
       <Callsign>[Rec DDC] Wings Of Fate</Callsign>
       <Number>129</Number>
       <SymbolOption>0</SymbolOption>
@@ -41,7 +41,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>v0TxeKOj3UaqOaxnG-sjDw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>7</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -59,12 +59,12 @@ Notes:
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>sc_2</Key>
-          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+          <Key>lc_2</Key>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>sc_4</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <Key>sc_2</Key>
+          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>LM_3</Key>
@@ -78,7 +78,7 @@ Notes:
     <Ship>
       <Key>6dd97d5c-61e4-4216-83c2-50f6640eb841</Key>
       <Name>Rite Of Passage</Name>
-      <Cost>150</Cost>
+      <Cost>153</Cost>
       <Callsign>[Rec DDC] Rite Of Passage</Callsign>
       <Number>1011</Number>
       <SymbolOption>0</SymbolOption>
@@ -97,7 +97,7 @@ Notes:
               <MagSaveData>
                 <MagazineKey>v0TxeKOj3UaqOaxnG-sjDw</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>4</Quantity>
+                <Quantity>7</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -115,12 +115,12 @@ Notes:
           <ComponentName>Stock/Basic CIC</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>sc_2</Key>
-          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
+          <Key>lc_2</Key>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>sc_4</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+          <Key>sc_2</Key>
+          <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>LM_3</Key>
@@ -134,7 +134,7 @@ Notes:
     <Ship>
       <Key>d0b8a379-0af6-4f8c-b359-bff159ee5cfc</Key>
       <Name>Path Of Vengance</Name>
-      <Cost>675</Cost>
+      <Cost>674</Cost>
       <Callsign>[Beam DD] Path Of Vengance</Callsign>
       <Number>467</Number>
       <SymbolOption>0</SymbolOption>
@@ -146,19 +146,19 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -166,7 +166,7 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>lm_2</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 73 MK23 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_3</Key>
@@ -182,22 +182,32 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>sm_3</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_4</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>lc_2</Key>
+          <Key>sm_5</Key>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>63GtAyO7FEC3jzejyX1Y1g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>8000</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -213,14 +223,14 @@ Notes:
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="JAM - R">
+        <WepGroup Name="Jam 1">
           <MemberKeys>
-            <string>c2_4</string>
+            <string>sm_4</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="JAM - L">
+        <WepGroup Name="Jam 2">
           <MemberKeys>
-            <string>c2_3</string>
+            <string>sm_5</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -230,7 +240,7 @@ Notes:
     <Ship>
       <Key>1af04f20-2c50-4883-9df6-6bb063f0888c</Key>
       <Name>Righteous Fury</Name>
-      <Cost>675</Cost>
+      <Cost>674</Cost>
       <Callsign>[Beam DD] Righteous Fury</Callsign>
       <Number>910</Number>
       <SymbolOption>0</SymbolOption>
@@ -242,19 +252,19 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -262,7 +272,7 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>lm_2</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 73 MK23 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_3</Key>
@@ -278,22 +288,32 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>sm_3</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_4</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>lc_2</Key>
+          <Key>sm_5</Key>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>63GtAyO7FEC3jzejyX1Y1g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>8000</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -309,14 +329,14 @@ Notes:
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="JAM - R">
+        <WepGroup Name="Jam 1">
           <MemberKeys>
-            <string>c2_4</string>
+            <string>sm_4</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="JAM - L">
+        <WepGroup Name="Jam 2">
           <MemberKeys>
-            <string>c2_3</string>
+            <string>sm_5</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -326,7 +346,7 @@ Notes:
     <Ship>
       <Key>acfe2ce1-0bc8-492c-8c24-e928481cd33e</Key>
       <Name>Midnight Intent</Name>
-      <Cost>675</Cost>
+      <Cost>673</Cost>
       <Callsign>[Beam DD] Midnight Intent</Callsign>
       <Number>1278</Number>
       <SymbolOption>0</SymbolOption>
@@ -338,19 +358,19 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -358,7 +378,7 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>lm_2</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 73 MK23 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_3</Key>
@@ -374,22 +394,32 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>sm_3</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_4</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>lc_2</Key>
+          <Key>sm_5</Key>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>63GtAyO7FEC3jzejyX1Y1g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>6000</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -405,14 +435,14 @@ Notes:
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="JAM - R">
+        <WepGroup Name="Jam 1">
           <MemberKeys>
-            <string>c2_4</string>
+            <string>sm_4</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="JAM - L">
+        <WepGroup Name="Jam 2">
           <MemberKeys>
-            <string>c2_3</string>
+            <string>sm_5</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -422,7 +452,7 @@ Notes:
     <Ship>
       <Key>d70a826a-a006-400f-a8cf-aee87d828df5</Key>
       <Name>Edge Of Eternity</Name>
-      <Cost>675</Cost>
+      <Cost>673</Cost>
       <Callsign>[Beam DD] Edge Of Eternity</Callsign>
       <Number>759</Number>
       <SymbolOption>0</SymbolOption>
@@ -434,19 +464,19 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
-          <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>KUIPER/Type 15 'Goalkeeper' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_1</Key>
@@ -454,7 +484,7 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>lm_2</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 73 MK23 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lm_3</Key>
@@ -470,22 +500,32 @@ Notes:
         </HullSocket>
         <HullSocket>
           <Key>sm_3</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>Stock/Focused Particle Accelerator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_4</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>lc_2</Key>
+          <Key>sm_5</Key>
+          <ComponentName>KUIPER/Model C91 'Birdsong' Active Barrage Jammer</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_1</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
-            <Load />
+            <Load>
+              <MagSaveData>
+                <MagazineKey>63GtAyO7FEC3jzejyX1Y1g</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>6000</Quantity>
+              </MagSaveData>
+            </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>Stock/Basic CIC</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -501,14 +541,14 @@ Notes:
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="JAM - R">
+        <WepGroup Name="Jam 1">
           <MemberKeys>
-            <string>c2_4</string>
+            <string>sm_4</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="JAM - L">
+        <WepGroup Name="Jam 2">
           <MemberKeys>
-            <string>c2_3</string>
+            <string>sm_5</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
