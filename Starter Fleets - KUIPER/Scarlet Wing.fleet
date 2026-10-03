@@ -86,7 +86,7 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
               <MagSaveData>
                 <MagazineKey>OQfZjPS_n0qm2t9xC080UA</MagazineKey>
                 <MunitionKey>Stock/EA14 Chaff Decoy</MunitionKey>
-                <Quantity>19</Quantity>
+                <Quantity>13</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -109,15 +109,15 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
         </HullSocket>
         <HullSocket>
           <Key>mm_2</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 51 'Harpy' Fusion Torch</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_3</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 73 MK23 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mm_4</Key>
-          <ComponentName>KUIPER/Model 70 MK68 Capital Reactor</ComponentName>
+          <ComponentName>KUIPER/Model 73 MK23 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>sm_1</Key>
@@ -152,74 +152,108 @@ Scarlet Wing "Solstice" is a heavy frontline wing, its principle task is to enga
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>sm_9</Key>
+          <ComponentName>KUIPER/Model 76 MK6 Micro Reactor</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>sm_10</Key>
           <ComponentName>Stock/Mount Gyros</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_1</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_2</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_3</Key>
-          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_4</Key>
-          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_5</Key>
-          <ComponentName>KUIPER/Model C76B Additive Manufactory</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>lc_6</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
                 <MagazineKey>xY4mRNt-4EWp8zZb3K32Fw</MagazineKey>
                 <MunitionKey>KUIPER/308mm HVAP Shell</MunitionKey>
-                <Quantity>1900</Quantity>
+                <Quantity>800</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>H3WsYtIsiUu8_ODduPmw4w</MagazineKey>
                 <MunitionKey>KUIPER/308mm HE Shell</MunitionKey>
-                <Quantity>1900</Quantity>
+                <Quantity>800</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>nV2ZAsSrJkiV9LFfI_QtEA</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>825</Quantity>
+                <Quantity>375</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>gGDn8mMiikOQIEeh0A_e5g</MagazineKey>
                 <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Sp9f2cuO5EKESqmopy6LaA</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>Ibd8nLTGL0W8Fd0csPzn3A</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>18000</Quantity>
+                <Quantity>8000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>lc_4</Key>
+          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>xY4mRNt-4EWp8zZb3K32Fw</MagazineKey>
+                <MunitionKey>KUIPER/308mm HVAP Shell</MunitionKey>
+                <Quantity>800</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>H3WsYtIsiUu8_ODduPmw4w</MagazineKey>
+                <MunitionKey>KUIPER/308mm HE Shell</MunitionKey>
+                <Quantity>800</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>nV2ZAsSrJkiV9LFfI_QtEA</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>375</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>gGDn8mMiikOQIEeh0A_e5g</MagazineKey>
+                <MunitionKey>KUIPER/20mm Coilgun Slug</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Sp9f2cuO5EKESqmopy6LaA</MagazineKey>
+                <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
+                <Quantity>1000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Ibd8nLTGL0W8Fd0csPzn3A</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>10000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
+          <Key>lc_5</Key>
+          <ComponentName>KUIPER/Model C76B Additive Manufactory</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>lc_7</Key>
-          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_8</Key>
-          <ComponentName>KUIPER/Model C79B Augmented DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_9</Key>
