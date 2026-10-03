@@ -203,36 +203,36 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
         </HullSocket>
         <HullSocket>
           <Key>lc_4</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
           <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <Load>
               <MagSaveData>
-                <MagazineKey>DJdupGB3_UiqHDxsEfc_OQ</MagazineKey>
+                <MagazineKey>cr-f9mroykOv9_OkSQUxDg</MagazineKey>
                 <MunitionKey>KUIPER/500mm HE-B Airburst Coilgun Shell</MunitionKey>
                 <Quantity>135</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>CO6H2Y4vuECMB4UUnX1jEA</MagazineKey>
+                <MagazineKey>-P3mwyto_EallMyt6Rudlg</MagazineKey>
                 <MunitionKey>KUIPER/500mm HESH-T Coilgun Shell</MunitionKey>
                 <Quantity>210</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>W_hwgajK9EqBZaEmAIWyaQ</MagazineKey>
+                <MagazineKey>drhJTqi6ekGzK0cb-Vd5lw</MagazineKey>
                 <MunitionKey>KUIPER/308mm HE Shell</MunitionKey>
                 <Quantity>900</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>reMVSTEKbkWJO-Z5IRU1pQ</MagazineKey>
+                <MagazineKey>clw3OCYTDkq6S44LbvLANw</MagazineKey>
                 <MunitionKey>KUIPER/308mm HVAP Shell</MunitionKey>
                 <Quantity>900</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>90F_tKS2p0-eIYSbcaOMHA</MagazineKey>
+                <MagazineKey>pZ6jIdF0xEKyNZ8YHpTlTQ</MagazineKey>
                 <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
                 <Quantity>14000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>SdjT1OzprUaBX292K2JOXg</MagazineKey>
+                <MagazineKey>CPkLV0sFh0yjNo9Kp7CWsA</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
                 <Quantity>3600</Quantity>
               </MagSaveData>
@@ -584,13 +584,6 @@ $CRAFTSTAT_CMDCAPACITY: $UI_SKIRMISH_CIB_SALVO_UNLIMITED
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
 $CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
 
-Pre-Flight Work: 1.2
-$CRAFTSTAT_PREFLIGHTTIME
-$CRAFTSTAT_PREFLIGHT_NOSHIPS
-
-Inventory
-Cost To Arm: 0.00
-
 $CRAFTSTAT_IDLESPEED: 50 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 50 $UNIT_METERSPERSEC
 $CRAFTSTAT_HBRNSPEED: 50 $UNIT_METERSPERSEC
@@ -672,7 +665,6 @@ Scout</LongDescription>
         <CraftLoadout>
           <LoadoutName>Scout</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>pod</SocketKey>
               <ComponentKey>radar</ComponentKey>
