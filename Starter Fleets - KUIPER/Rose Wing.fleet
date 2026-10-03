@@ -43,6 +43,19 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
           <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>c2_2</Key>
+          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
+          <ComponentData p2:type="CellLauncherData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>GYz1Bqzzz0-5NKPf8sNobA</MagazineKey>
+                <MunitionKey>Stock/EA14 Chaff Decoy</MunitionKey>
+                <Quantity>18</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
+        </HullSocket>
+        <HullSocket>
           <Key>c2_3</Key>
           <ComponentName>KUIPER/Type 15B 'Watchman' Point Defense Turret</ComponentName>
         </HullSocket>
@@ -142,44 +155,44 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
               <MagSaveData>
                 <MagazineKey>4xvX1pG0gE2hx35gjSWrPA</MagazineKey>
                 <MunitionKey>KUIPER/100mm Coilgun AP Slug</MunitionKey>
-                <Quantity>490</Quantity>
+                <Quantity>315</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>kTgGwMrdU0iNaMAPNTmPBA</MagazineKey>
                 <MunitionKey>KUIPER/100mm Coilgun Fragmentation Slug</MunitionKey>
-                <Quantity>490</Quantity>
+                <Quantity>315</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>QMrpDMDk-0u1rcFjhqICzw</MagazineKey>
-                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
-                <Quantity>16000</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>6ixffk58r06w60UOczhu7A</MagazineKey>
-                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>1125</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>nqzTN5D8CkysWV6q-gl1QQ</MagazineKey>
-                <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
-                <Quantity>400</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>HLtoCI5f1ECpnSw6LqtVDg</MagazineKey>
-                <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
-                <Quantity>400</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>ZnXExAHW5k2QknLwDxpfPQ</MagazineKey>
+                <MagazineKey>v8Y_snMVY0OJZAJYDzaWJw</MagazineKey>
                 <MunitionKey>KUIPER/50mm Fragmentation Slug</MunitionKey>
-                <Quantity>400</Quantity>
+                <Quantity>300</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>0vb71ulcBkajS_m0DbgelA</MagazineKey>
+                <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
+                <Quantity>300</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>QmXpQbIdt0yg4oJIqBy1fQ</MagazineKey>
+                <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
+                <Quantity>300</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>NIB-0Y0G-0CmYGytLrYBNA</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>825</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>ebh6-jI2R0eXuII-v1c3tA</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>12000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>lc_3</Key>
-          <ComponentName>KUIPER/Model C79C Augmented DC Locker</ComponentName>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_4</Key>
@@ -195,11 +208,50 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>lc_7</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_8</Key>
-          <ComponentName>KUIPER/Model C78B CNC Shop</ComponentName>
+          <ComponentName>Stock/Bulk Magazine</ComponentName>
+          <ComponentData p2:type="BulkMagazineData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
+            <Load>
+              <MagSaveData>
+                <MagazineKey>eajq6t2GFEasLL9411EV-Q</MagazineKey>
+                <MunitionKey>KUIPER/100mm Coilgun AP Slug</MunitionKey>
+                <Quantity>175</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>69oGrqQXjEOVUNz4z-Rr6g</MagazineKey>
+                <MunitionKey>KUIPER/100mm Coilgun Fragmentation Slug</MunitionKey>
+                <Quantity>175</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>z97be_71DkeWXi3Z2ZTnSQ</MagazineKey>
+                <MunitionKey>KUIPER/50mm Coilgun Slug</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>9PdVtkpV1UiK_-3PWSELbQ</MagazineKey>
+                <MunitionKey>KUIPER/50mm Fragmentation Slug</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>erMOfrW8eE-g4xKOAsoIkA</MagazineKey>
+                <MunitionKey>KUIPER/50mm HE-RPF Coilgun Shell</MunitionKey>
+                <Quantity>100</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>4uPjBFWqrEeJYjdf13HY1g</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>225</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SripdWJs6USiVFFAVyZXkw</MagazineKey>
+                <MunitionKey>KUIPER/15mm Coilgun slug</MunitionKey>
+                <Quantity>4000</Quantity>
+              </MagSaveData>
+            </Load>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>lc_9</Key>
@@ -223,7 +275,7 @@ Rose Wing "Overwatch" is a long range fire support wing consisting of 'Order in 
         </HullSocket>
         <HullSocket>
           <Key>mc_5</Key>
-          <ComponentName>Stock/Damage Control Central</ComponentName>
+          <ComponentName>KUIPER/Model C78B CNC Shop</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_6</Key>
