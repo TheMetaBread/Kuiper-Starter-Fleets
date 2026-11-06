@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Pyrite Wing</Name>
   <Version>3</Version>
   <TotalPoints>3000</TotalPoints>
   <FactionKey>KUIPER/kuiper</FactionKey>
-  <Description>Difficulty: &lt;color=green&gt;Not Very&lt;/color&gt;
+  <Description>Difficult? &lt;color=green&gt;Not Really&lt;/color&gt;
 
 Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500mm bombshell and more cubesats than god. don't get keystoned.
  </Description>
@@ -15,7 +15,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
     <Ship>
       <Key>1bb0ef4e-94d6-43fc-9b1a-6241df36c0d9</Key>
       <Name>Wondrous Discovery</Name>
-      <Cost>2364</Cost>
+      <Cost>2350</Cost>
       <Callsign />
       <Number>1467</Number>
       <SymbolOption>0</SymbolOption>
@@ -42,24 +42,6 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
           <ComponentName>KUIPER/Cubesat Mass Launcher</ComponentName>
           <ComponentData p2:type="CraftHangarData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <StoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
-              </SavedStoredCraft>
               <SavedStoredCraft>
                 <CraftTemplateKey>$CRAFT$/CBU-40P Cube Sat</CraftTemplateKey>
               </SavedStoredCraft>
@@ -209,12 +191,12 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
               <MagSaveData>
                 <MagazineKey>cr-f9mroykOv9_OkSQUxDg</MagazineKey>
                 <MunitionKey>KUIPER/500mm HE-B Airburst Coilgun Shell</MunitionKey>
-                <Quantity>135</Quantity>
+                <Quantity>150</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>-P3mwyto_EallMyt6Rudlg</MagazineKey>
                 <MunitionKey>KUIPER/500mm HESH-T Coilgun Shell</MunitionKey>
-                <Quantity>210</Quantity>
+                <Quantity>195</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>drhJTqi6ekGzK0cb-Vd5lw</MagazineKey>
@@ -234,7 +216,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
               <MagSaveData>
                 <MagazineKey>CPkLV0sFh0yjNo9Kp7CWsA</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>3600</Quantity>
+                <Quantity>1800</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -261,7 +243,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
         </HullSocket>
         <HullSocket>
           <Key>mc_4</Key>
-          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_5</Key>
@@ -318,7 +300,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
     <Ship>
       <Key>243fee91-e71a-4383-bcf3-1e2cbdd1d38c</Key>
       <Name>Forgotten Pathway</Name>
-      <Cost>212</Cost>
+      <Cost>214</Cost>
       <Callsign />
       <Number>369</Number>
       <SymbolOption>0</SymbolOption>
@@ -330,7 +312,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
@@ -365,12 +347,17 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
               <MagSaveData>
                 <MagazineKey>sYgkwbEZMEeDToRr4vPPdg</MagazineKey>
                 <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>2500</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>mFLWWtyS00Ss3wkiJ4ofRg</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xoSWjNWwS0-ifdkU0uj0_g</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>375</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -399,7 +386,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
     <Ship>
       <Key>7a1b7c63-0f4f-4ee4-9a7d-1196fee29627</Key>
       <Name>Hushed Rumor</Name>
-      <Cost>212</Cost>
+      <Cost>214</Cost>
       <Callsign />
       <Number>1248</Number>
       <SymbolOption>0</SymbolOption>
@@ -407,7 +394,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
       <SocketMap>
         <HullSocket>
           <Key>c2_1</Key>
-          <ComponentName>KUIPER/Type 10 'Castle' Coilgun Turret</ComponentName>
+          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_2</Key>
@@ -415,7 +402,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
         </HullSocket>
         <HullSocket>
           <Key>c2_3</Key>
-          <ComponentName>Stock/E57 'Floodlight' Illuminator</ComponentName>
+          <ComponentName>KUIPER/Type 5B 'Backstop' Flak Turret</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2_4</Key>
@@ -446,12 +433,17 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
               <MagSaveData>
                 <MagazineKey>sYgkwbEZMEeDToRr4vPPdg</MagazineKey>
                 <MunitionKey>KUIPER/20mm Fragmenting Coilgun Shell</MunitionKey>
-                <Quantity>2500</Quantity>
+                <Quantity>1500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>mFLWWtyS00Ss3wkiJ4ofRg</MagazineKey>
                 <MunitionKey>KUIPER/20mm Airburst Coilgun Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>xoSWjNWwS0-ifdkU0uj0_g</MagazineKey>
+                <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
+                <Quantity>375</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -480,7 +472,7 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
     <Ship>
       <Key>856cea4d-1b41-4bef-9038-32b5ecbbfb60</Key>
       <Name>Ancient Myth</Name>
-      <Cost>212</Cost>
+      <Cost>222</Cost>
       <Callsign />
       <Number>478</Number>
       <SymbolOption>0</SymbolOption>
@@ -538,6 +530,10 @@ Pyrite wing kills things, it kills them best at 6.5km. No sell missiles with 500
           </ComponentData>
         </HullSocket>
         <HullSocket>
+          <Key>sc_1</Key>
+          <ComponentName>KUIPER/Model C71 Fast DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>sc_2</Key>
           <ComponentName>KUIPER/Model CW80 MK5 Radar Suite Integrator</ComponentName>
         </HullSocket>
@@ -582,7 +578,7 @@ $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
 $CRAFTSTAT_CMDCAPACITY: $UI_SKIRMISH_CIB_SALVO_UNLIMITED
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
-$CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
+$CRAFTSTAT_BOMBLEVELTIME: 0.5 $UNIT_SECONDS_MED
 
 $CRAFTSTAT_IDLESPEED: 50 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 50 $UNIT_METERSPERSEC
