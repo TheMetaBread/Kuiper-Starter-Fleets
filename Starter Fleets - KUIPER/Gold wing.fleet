@@ -16,7 +16,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
     <Ship>
       <Key>39ccf429-6c79-4c20-8609-9dfcea5d8c76</Key>
       <Name>Last To Fall</Name>
-      <Cost>2371</Cost>
+      <Cost>2351</Cost>
       <Callsign />
       <Number>562</Number>
       <SymbolOption>0</SymbolOption>
@@ -43,24 +43,6 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
           <ComponentName>KUIPER/Cubesat Mass Launcher</ComponentName>
           <ComponentData p2:type="CraftHangarData" xmlns:p2="http://www.w3.org/2001/XMLSchema-instance">
             <StoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
-              </SavedStoredCraft>
-              <SavedStoredCraft>
-                <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
-              </SavedStoredCraft>
               <SavedStoredCraft>
                 <CraftTemplateKey>$CRAFT$/iLPWx_0joUqVGJgWxi24wQ</CraftTemplateKey>
               </SavedStoredCraft>
@@ -222,14 +204,14 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
               <MagSaveData>
                 <MagazineKey>unnm-87mtUev0CQKCLFeFA</MagazineKey>
                 <MunitionKey>KUIPER/40mm HE-RPF Shell</MunitionKey>
-                <Quantity>3900</Quantity>
+                <Quantity>1650</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>lc_3</Key>
-          <ComponentName>KUIPER/Model C70B HDC Locker</ComponentName>
+          <ComponentName>Stock/Plant Control Center</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>lc_4</Key>
@@ -245,7 +227,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
         </HullSocket>
         <HullSocket>
           <Key>mc_1</Key>
-          <ComponentName>Stock/Auxiliary Steering</ComponentName>
+          <ComponentName>KUIPER/Model C72B Reinforced HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>mc_2</Key>
@@ -265,7 +247,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
         </HullSocket>
         <HullSocket>
           <Key>mc_6</Key>
-          <ComponentName>Stock/Plant Control Center</ComponentName>
+          <ComponentName>KUIPER/Model C70B HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>RM_1</Key>
@@ -458,7 +440,7 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
     <Ship>
       <Key>2dce2106-9a9e-40dd-a458-3c50f2d67eef</Key>
       <Name>Flash</Name>
-      <Cost>205</Cost>
+      <Cost>225</Cost>
       <Callsign>-I</Callsign>
       <Number>1017</Number>
       <SymbolOption>0</SymbolOption>
@@ -505,6 +487,10 @@ Gold Wing "Heaven Sent" consists of a 50mm/Beam Kasr and a trio of Kyves, two de
         </HullSocket>
         <HullSocket>
           <Key>sc_1</Key>
+          <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>sc_2</Key>
           <ComponentName>KUIPER/Model C70 HDC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
@@ -567,15 +553,7 @@ $CRAFTSTAT_WAKESIG: 100 %
 $CRAFTSTAT_MISSILESBOMBS
 $CRAFTSTAT_CMDCAPACITY: $UI_SKIRMISH_CIB_SALVO_UNLIMITED
 $CRAFTSTAT_MISSILEANGLE: 30 $UNIT_DEGREES
-$CRAFTSTAT_BOMBLEVELTIME: 3 $UNIT_SECONDS_MED
-
-Pre-Flight Work: 2.7
-$CRAFTSTAT_PREFLIGHTTIME
-$CRAFTSTAT_PREFLIGHT_NOSHIPS
-
-Inventory
- - 40mm HE-RPF Coilgun Shell: 150
-Cost To Arm: 2.00
+$CRAFTSTAT_BOMBLEVELTIME: 0.5 $UNIT_SECONDS_MED
 
 $CRAFTSTAT_IDLESPEED: 50 $UNIT_METERSPERSEC
 $CRAFTSTAT_CRUISESPEED: 50 $UNIT_METERSPERSEC
@@ -614,7 +592,6 @@ HardKill: 150x $AMMONAME_40MM_HE_RPF_COILGUN_SHELL|40mm HE-RPF Coilgun Shell|</L
         <CraftLoadout>
           <LoadoutName>Com Jamming</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>pod</SocketKey>
               <ComponentKey>cjammer</ComponentKey>
@@ -625,7 +602,6 @@ HardKill: 150x $AMMONAME_40MM_HE_RPF_COILGUN_SHELL|40mm HE-RPF Coilgun Shell|</L
         <CraftLoadout>
           <LoadoutName>EO Jamming</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>pod</SocketKey>
               <ComponentKey>eojammer</ComponentKey>
@@ -636,7 +612,6 @@ HardKill: 150x $AMMONAME_40MM_HE_RPF_COILGUN_SHELL|40mm HE-RPF Coilgun Shell|</L
         <CraftLoadout>
           <LoadoutName>Act Jamming</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>pod</SocketKey>
               <ComponentKey>jammer</ComponentKey>
@@ -647,7 +622,6 @@ HardKill: 150x $AMMONAME_40MM_HE_RPF_COILGUN_SHELL|40mm HE-RPF Coilgun Shell|</L
         <CraftLoadout>
           <LoadoutName>HardKill</LoadoutName>
           <Elements>
-            <GeneralLoadoutElement p3:type="SimpleOccupiedElement" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance" />
             <GeneralLoadoutElement p3:type="VariableSocketLoadout" xmlns:p3="http://www.w3.org/2001/XMLSchema-instance">
               <SocketKey>pod</SocketKey>
               <ComponentKey>40mm</ComponentKey>
@@ -661,7 +635,7 @@ HardKill: 150x $AMMONAME_40MM_HE_RPF_COILGUN_SHELL|40mm HE-RPF Coilgun Shell|</L
       </Loadouts>
       <TemplateMissileTypes />
       <ModDependencies>
-        <unsignedLong>3799359812</unsignedLong>
+        <unsignedLong>3649434947</unsignedLong>
       </ModDependencies>
     </CraftTemplate>
   </CraftTypes>
